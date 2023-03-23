@@ -123,7 +123,7 @@ export function Chat() {
 
       {messages.length < 2 && (
         <span className="mx-auto flex flex-grow text-gray-600 clear-both">
-          Type a message to start the conversation
+          Type a message in your prefered language to start the conversation...
         </span>
       )}
       <InputMessage
