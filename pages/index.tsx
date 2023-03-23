@@ -45,8 +45,8 @@ function Home({ children }: HomeProps) {
         <Text className="text-zinc-600"><b>This project is dedicated with respect and gratitude to all my teachers</b></Text>
      <Text className="text-zinc-600">Concept, programming and prompt engineering by <Link href="https://marlonbarrios.github.io/">Marlon Barrios Solano</Link></Text>
 
-        <Text className="text-zinc-600"><Link href="https://www.linkedin.com/in/andrew-chen-1b1b2b1b/">I teach and do coaching on mindfulness meditation for creative technologists and artists</Link></Text>
-        
+        <Text className="text-zinc-600"><Link href="https://marlonbarrios.github.io/mindfulness/">I teach and do coaching on mindfulness meditation for creative technologists and artists</Link></Text>
+
          <Text className="text-zinc-600">Powered by <Link href="https://openai.com/product/gpt-4">GPT-4/OpenAI</Link></Text>
         
            <Text className="text-zinc-600"> <Link href="https://patreon.com/user?u=84024387&utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_linkv">Support my work in Patreon</Link></Text>
