@@ -10,7 +10,6 @@ type HomeProps = {
   children: ReactNode[];
 }
 
-
 function Home({ children }: HomeProps) {
   return (
     <Page className="flex flex-col gap-12">
