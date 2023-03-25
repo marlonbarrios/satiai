@@ -1,22 +1,14 @@
-import type { AppProps } from 'next/app';
+import { AppProps } from 'next/app';
 import { Analytics } from '@vercel/analytics/react';
-
-import Home from './index';
-
-
-
-
+import Layout from '../components/Layout';
 import '@vercel/examples-ui/globals.css';
-
 
 function App({ Component, pageProps }: AppProps) {
   return (
-   
-    <Home>
-       
+    <Layout>
       <Component {...pageProps} />
       <Analytics />
-    </Home>
+    </Layout>
   );
 }
 
