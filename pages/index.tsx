@@ -7,9 +7,14 @@ function Home() {
   return (
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-3">
-        <Text variant="h2" className="mb-6">
-          May you be free from suffering...
-        </Text>
+        <div className="flex justify-between items-center">
+          <Text variant='h1'>Sati-Ai</Text>
+          <div className="flex items-center">
+            <Link href="/">
+              <Image src="/images/logo.png" alt="Sati-AI" width={100} height={100} />
+            </Link>
+          </div>
+        </div>
         <Text className="text-zinc-600">
           Sati-AI is a Vipassana meditation assistant. The intention of this tool is to help you cultivate mindfulness and develop greater peace and insight in your life. It cannot replace a trained human teacher or a mental help professional. While Sati-AI can help summarise and simplify important insights, what you're looking for is already within your own, full experience.
         </Text>
@@ -18,6 +23,9 @@ function Home() {
         </Text>
         <Text className="text-zinc-600">
           While Buddhism has many traditions, Sati-AI's training is solely in Theravada. You can start a conversation by asking questions about your practice, or by enquiring into any verses from the Pali Canon, particularly the Dhammapada and Theragatha.
+        </Text>
+        <Text variant="h2" className="mb-6">
+          May you be free from suffering...
         </Text>
         <div className="lg:w-full my-8">
           <Chat />

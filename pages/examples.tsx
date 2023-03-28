@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Text, Page } from '@vercel/examples-ui';
 import Link from 'next/link'
 import Forgive from '../components/Forgive';
+import Image from 'next/image'
 
 function Examples() {
   const [activeComponent, setActiveComponent] = useState('');
@@ -14,9 +15,14 @@ function Examples() {
   return (
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-3 text-zinc-600">
-        <Text variant="h1" className="mb-6">
-          Learn By Example
-        </Text>
+      <div className="flex justify-between items-center">
+          <Text variant='h1'>Learn by Example</Text>
+          <div className="flex items-center">
+            <Link href="/">
+              <Image src="/images/logo.png" alt="Sati-AI" width={100} height={100} />
+            </Link>
+          </div>
+        </div>
         <Text>
           On this page, we provide various example conversations, conducted during testing, to help you learn what to expect and how to think about prompting Sati-AI in order to better understand yourself and your own practice.
         </Text>
