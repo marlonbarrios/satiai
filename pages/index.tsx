@@ -16,13 +16,13 @@ function Home() {
           </div>
         </div>
         <Text className="text-zinc-600">
-          Sati-AI is a Vipassana meditation assistant. The intention of this tool is to help you cultivate mindfulness and develop greater peace and insight in your life. It cannot replace a trained human teacher or a mental help professional. While Sati-AI can help summarise and simplify important insights, what you're looking for is already within your own, full experience.
+          Sati-AI is a Vipassana meditation assistant. The intention of this tool is to help you cultivate mindfulness and develop greater peace and insight in your life. It cannot replace a trained human teacher or a mental help professional. While Sati-AI can help summarise and simplify important insights, what you are looking for is already within your own, full experience.
         </Text>
         <Text className="text-zinc-600">
           This tool can serve you best if you approach any dialogue with a healthy sense of humour.
         </Text>
         <Text className="text-zinc-600">
-          While Buddhism has many traditions, Sati-AI's training is solely in Theravada. You can start a conversation by asking questions about your practice, or by enquiring into any verses from the Pali Canon, particularly the Dhammapada and Theragatha.
+          While Buddhism has many traditions, Sati-AI is training is solely in Theravada. You can start a conversation by asking questions about your practice, or by enquiring into any verses from the Pali Canon, particularly the Dhammapada and Theragatha.
         </Text>
         <Text variant="h2" className="mb-6">
           May you be free from suffering...
