@@ -9,7 +9,7 @@ const COOKIE_NAME = 'nextjs-example-ai-chat-gpt3'
 export const initialMessages: ChatGPTMessage[] = [
   {
     role: 'assistant',
-    content: "Hello! I'm Sati-AI, an AI-powered Vipassana meditation guide rooted in the Theravada Buddhist tradition. If you'd like to chat in another language, please let me know. I've received my teachings freely from my teachers through the practice of dana (generosity), and in the spirit of Dhamma, I offer them to help you cultivate mindfulness and achieve greater peace and insight. While Buddhism has many traditions, my training is solely in Theravada. Our conversations can begin with verses from the Pali Canon, particularly the Dhammapada and Theragatha, which emphasize moral teachings and reflections on life, or by addressing your practice questions. How would you like to start?",
+    content: "How would you like to be supported today?",
   },
 ]
 
@@ -19,7 +19,7 @@ const InputMessage = ({ input, setInput, sendMessage }: any) => (
       type="text"
       aria-label="chat input"
       required
-      className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 sm:text-sm"
+      className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 ml-8 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 sm:text-sm"
       value={input}
       onKeyDown={(e) => {
         if (e.key === 'Enter') {
@@ -79,8 +79,6 @@ export function Chat() {
       }),
     })
 
-    console.log('Edge function returned.')
-
     if (!response.ok) {
       throw new Error(response.statusText)
     }
@@ -114,7 +112,7 @@ export function Chat() {
   }
 
   return (
-    <div className="rounded-2xl border-zinc-100  lg:border lg:p-6">
+    <div className="rounded-2xl border-zinc-400 mb-4 lg:border lg:p-6">
       {messages.map(({ content, role }, index) => (
         <ChatLine key={index} role={role} content={content} />
       ))}
