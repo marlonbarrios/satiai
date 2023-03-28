@@ -22,7 +22,7 @@ function Home() {
           This tool can serve you best if you approach any dialogue with a healthy sense of humour.
         </Text>
         <Text className="text-zinc-600">
-          While Buddhism has many traditions, Sati-AI is training is solely in Theravada. You can start a conversation by asking questions about your practice, or by enquiring into any verses from the Pali Canon, particularly the Dhammapada and Theragatha.
+        While Buddhism encompasses many traditions, Sati-AI primarily focuses on training within the Theravada tradition, also known as early Buddhism. You can initiate a conversation by asking questions about your practice or inquiring about specific verses from the Pali Canon, particularly the Dhammapada and Theragatha.
         </Text>
         <Text variant="h2" className="mb-6">
           May you be free from suffering...
