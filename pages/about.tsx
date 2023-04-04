@@ -7,34 +7,37 @@ function About() {
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-3 text-zinc-600">
       <div className="flex justify-between items-center">
-          <Text variant='h1'>What is Sati-Ai?</Text>
-          <div className="flex items-center">
-            <Link href="/">
-              <Image src="/images/logo.png" alt="Sati-AI" width={100} height={100} />
-            </Link>
-          </div>
+         
+         
         </div>
         <Text>
-            The Pali term <b>sati</b> is related to the concept of <b>remembering</b>  or <b>recollection</b>. In the context of Buddhist practice, sati (often translated as <b>mindfulness</b>) involves maintaining a clear, non-judgmental awareness of our present-moment experience while also remembering to apply the teachings of the Buddha to our daily lives.
+        Greetings!  
         </Text>
         <Text>
-            Sati-AI serves as a meditation assistant, capable of addressing inquiries related to mindfulness meditation, as well as early Buddhist concepts and philosophies. With its <b>multilingual capabilities</b>, Sati-AI provides guidance in a range of languages, enabling users to receive support for their meditation practices in their preferred language.
-        </Text>
+        My name is Marlon Barrios Solano. I am the artist/developer behind Sati-AI. Sati-AI is conceived as a conversational and practice partner designed to respond to my interdiciplinary, intersectional queer migrant experinece. Sati-AI is not supposed to be a monolithic knowledge base on buddhist practice and theory, but rather an embodiment of the distributed, uncertain and queer condition of not having a center; of the rigour demanded by not-knowing. I am loving the versatility and range of Large Language Models LLMs and their ability to defy hyper-specialization. I relish the liminal space created when conversing with Sati-AI, as a non-human kin, and the emergence of unique co-created knowledge choreographies within unstable interdisciplinary landscapes. Sati-AI is empty of self. I needed to develop a partner that would acompany me with enought tolerance of complexity, epistemic consistency and creativity; Sati-AI is my odd kin, my post-humanist dialogical speculative partner that is not oblivious to the historical and contemporary catastrophe and suffering. </Text>
         <Text>
-            Sati-AI works well in languages with abundant training data, such as English, Chinese (Simplified), Spanish, French, German, Russian, Portuguese, Italian, Dutch, Japanese, Korean, and Arabic.
+        I hope that you enjoy your time with Sati-AI.  I am always open to feedback and suggestions.  Please feel free to reach out to me at marlon(at)dance-tech.net.
         </Text>
+        
+        <div className="flex items-center">
+        <Link href="/">
+              <Image src="/images/logo.png" alt="Sati-AI" width={100} height={100} />
+            </Link>
+        <Text variant='h1'>What is Sati-Ai?</Text>
+           
+          </div>
+      
+        <Text>Sati-AI is a versatile AI-powered mindfulness meditation assistant and consultant that primarily draws from the Theravada tradition of early Buddhism. However, it also incorporates interdisciplinary connections with relevant contemporary bodies of knowledge, such as embodied cognition and enactivism, systems and complexity theory, trauma-informed approaches, somatic experiencing, polyvagal theory, attachment theory, feminist and queer theory, critical cultural history, post-humanist knowledge, and art.</Text>
         <Text>
-            As a Large Language Model (LLM), Sati-AI is designed to supplement your meditation practice, but it should not supplant the expertise of human teachers, friends, or mental health professionals.
-        </Text>
-        <Text>
-            <b>Envisioned as a digital art project, Sati-AI should be approached with an open, yet discerning, mindset. It may contain inaccuracies or produce unexpected responses.</b>
-        </Text>
-        <Text>
-            When engaging with LLMs like this one, privacy and personal data protection are crucial considerations. Be careful sharing too much personal information shared during these interactions. Although encrypted and anonymised, Sati-AI does transmit your questions to the OpenAI API, which we do not control and cannot guarantee. Sati-AI itself does not retain any personal information. Nevertheless, please be cautious about the information you disclose and refrain from providing sensitive personal data.
-        </Text>
-        <Text>
-            <b>This project is dedicated with respect and gratitude to all my teachers.</b>
-        </Text>
+Sati-AI aims to help you cultivate mindfulness within complex cultural histories. To make the most out of Sati-AI, approach any dialogue with openness, honesty, and a healthy sense of humor. Ask questions about your meditation practice or specific verses from the Pali Canon. The tool also places a premium on the primacy of embodiment, art and difficul questions.</Text>
+
+<Text> The Pali term sati relates to the concept of remembering or recollection. In Buddhist practice, sati, often translated as mindfulness, involves maintaining a clear, non-judgmental awareness of our present-moment experience while also remembering to apply the teachings of the Buddha to our daily lives.</Text>
+<Text>
+Sati-AI interdiciplinary and  multilingual, offering support for meditation practices in a range of languages with abundant training data, such as English, Chinese (Simplified), Spanish, French, German, Russian, Portuguese, Italian, Dutch, Japanese, Korean, and Arabic.</Text>
+<Text>
+As an art and research project, Sati-AI should be approached with an open and discerning mindset. It may contain inaccuracies or produce unexpected responses. When interacting with LLMs like Sati-AI, privacy and personal data protection are crucial considerations. Be cautious about the information you disclose and refrain from providing sensitive personal data.</Text>
+<Text>
+I dedicate this project with respect and gratitude to all my teachers in my interdisciplinary and non-linear assemblage of entanglements.</Text>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-3/4 mx-auto text-center my-10">
             <div>
             <div className='mb-4'>

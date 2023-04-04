@@ -7,23 +7,23 @@ function Home() {
   return (
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-3">
-        <div className="flex justify-between items-center">
-          <Text variant='h1'>Sati-Ai</Text>
-          <div className="flex items-center">
+        <div className="flex justify-between items-center">  <div className="flex items-center">
             <Link href="/">
               <Image src="/images/logo.png" alt="Sati-AI" width={100} height={100} />
             </Link>
+            <Text variant='h1'>Sati-Ai</Text>
           </div>
+          
         </div>
-        <Text className="text-zinc-600">
-          Sati-AI is a Vipassana meditation assistant. The intention of this tool is to help you cultivate mindfulness and develop greater peace and insight in your life. It cannot replace a trained human teacher or a mental help professional. While Sati-AI can help summarise and simplify important insights, what you are looking for is already within your own, full experience.
+        <Text className="text-zinc-600">Sati-AI is a multi-lingual AI-powered mindfulness meditation assistant and consultant that incorporates interdisciplinary connections with contemporary knowledge, such as embodied cognition and enactivism, trauma-informed approaches, and art. It primarily draws from the Theravada tradition of early Buddhism to help you cultivate mindfulness within complex cultural histories.
         </Text>
         <Text className="text-zinc-600">
-          This tool can serve you best if you approach any dialogue with a healthy sense of humour.
+Approach any dialogue with Sati-AI with openness, honesty, and a sense of humor. Ask about your meditation practice or specific verses from the Pali Canon. The tool also emphasizes the importance of embodiment and art.
         </Text>
-        <Text className="text-zinc-600">
-        While Buddhism encompasses many traditions, Sati-AI primarily focuses on training within the Theravada tradition, also known as early Buddhism. You can initiate a conversation by asking questions about your practice or inquiring about specific verses from the Pali Canon, particularly the Dhammapada and Theragatha.
-        </Text>
+        <Text className="text-zinc-600"><i>
+Note that Sati-AI cannot replace a trained human teacher or mental health professional.</i>
+</Text>
+
         <Text variant="h2" className="mb-6">
           May you be free from suffering...
         </Text>
