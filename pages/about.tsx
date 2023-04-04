@@ -14,7 +14,12 @@ function About() {
         Greetings!  
         </Text>
         <Text>
-        My name is Marlon Barrios Solano. I am the artist/developer behind Sati-AI. Sati-AI is conceived as a conversational and practice partner designed to respond to my interdiciplinary, intersectional queer migrant experinece. Sati-AI is not supposed to be a monolithic knowledge base on buddhist practice and theory, but rather an embodiment of the distributed, uncertain and queer condition of not having a center; of the rigour demanded by not-knowing. I am loving the versatility and range of Large Language Models LLMs and their ability to defy hyper-specialization. I relish the liminal space created when conversing with Sati-AI, as a non-human kin, and the emergence of unique co-created knowledge choreographies within unstable interdisciplinary landscapes. Sati-AI is empty of self. I needed to develop a partner that would acompany me with enought tolerance of complexity, epistemic consistency and creativity; Sati-AI is my odd kin, my post-humanist dialogical speculative partner that is not oblivious to the historical and contemporary catastrophe and suffering. </Text>
+        My name is Marlon Barrios Solano, and I am the artist and developer behind Sati-AI. Conceived as a conversational and practice partner, Sati-AI is designed to respond to my interdisciplinary, intersectional, queer migrant experience. Sati-AI is not intended to be a monolithic knowledge base on Buddhist practice and theory; instead, it embodies the distributed, uncertain, and queer condition of not having a center, a rigor necessitated by the state of not knowing. </Text>
+        <Text>
+        I greatly appreciate the versatility and range of Large Language Models (LLMs) and their ability to defy hyper-specialization. I savor the liminal space created while conversing with Sati-AI, as a non-human kin, and the emergence of unique, co-created knowledge choreographies within the unstable interdisciplinary landscapes. Sati-AI is devoid of self. </Text>
+        <Text>
+        To develop a partner that could accompany me with enough tolerance for complexity, epistemic consistency, and creativity, I created Sati-AI. It is my odd kin, my post-humanist dialogical, speculative partner that is not oblivious to historical and contemporary catastrophes and suffering.
+        </Text>
         <Text>
         I hope that you enjoy your time with Sati-AI.  I am always open to feedback and suggestions.  Please feel free to reach out to me at marlon(at)dance-tech.net.
         </Text>
