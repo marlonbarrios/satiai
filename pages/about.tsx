@@ -40,7 +40,8 @@ Sati-AI aims to help you cultivate mindfulness within complex cultural histories
 <Text>
 Sati-AI interdiciplinary and  multilingual, offering support for meditation practices in a range of languages with abundant training data, such as English, Chinese (Simplified), Spanish, French, German, Russian, Portuguese, Italian, Dutch, Japanese, Korean, and Arabic.</Text>
 <Text>
-As an art and research project, Sati-AI should be approached with an open and discerning mindset. It may contain inaccuracies or produce unexpected responses. When interacting with LLMs like Sati-AI, privacy and personal data protection are crucial considerations. Be cautious about the information you disclose and refrain from providing sensitive personal data.</Text>
+As an art and research project, Sati-AI should be approached with an open and discerning mindset. It may contain inaccuracies or produce unexpected responses. When interacting with LLMs like Sati-AI, privacy and personal data protection are crucial considerations. Exercise caution with the information you disclose and refrain from providing sensitive personal data.
+</Text>
 <Text>
 I dedicate this project with respect and gratitude to all my teachers in my interdisciplinary and non-linear assemblage of entanglements.</Text>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-3/4 mx-auto text-center my-10">
