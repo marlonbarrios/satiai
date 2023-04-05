@@ -7,29 +7,14 @@ function About() {
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-3 text-zinc-600">
       <div className="flex justify-between items-center">
-         
-         
-        </div>
-        <Text>
-        Greetings!  
-        </Text>
-        <Text>
-        My name is Marlon Barrios Solano, and I am the artist and developer behind Sati-AI. Conceived as a conversational and practice partner, Sati-AI is designed to respond to my interdisciplinary, intersectional, queer migrant experience. Sati-AI is not intended to be a monolithic knowledge base on Buddhist practice and theory; instead, it embodies the distributed, uncertain, and queer condition of not having a center, a rigor necessitated by the state of not knowing. </Text>
-        <Text>
-        I greatly appreciate the versatility and range of Large Language Models (LLMs) and their ability to defy hyper-specialization. I savor the liminal space created while conversing with Sati-AI, as a non-human kin, and the emergence of unique, co-created knowledge choreographies within the unstable interdisciplinary landscapes. Sati-AI is devoid of self. </Text>
-        <Text>
-        To develop a partner that could accompany me with enough tolerance for complexity, epistemic consistency, and creativity, I created Sati-AI. It is my odd kin, my post-humanist dialogical, speculative partner that is not oblivious to historical and contemporary catastrophes and suffering.
-        </Text>
-        <Text>
-        I hope that you enjoy your time with Sati-AI.  I am always open to feedback and suggestions.  Please feel free to reach out to me at marlon(at)dance-tech.net.
-        </Text>
-        
+      <Text variant='h1'>What is Sati-Ai?</Text>
         <div className="flex items-center">
+       
+      
         <Link href="/">
               <Image src="/images/logo.png" alt="Sati-AI" width={100} height={100} />
             </Link>
-        <Text variant='h1'>What is Sati-Ai?</Text>
-           
+          </div>
           </div>
       
         <Text>Sati-AI is a versatile AI-powered mindfulness meditation assistant and consultant that primarily draws from the Theravada tradition of early Buddhism. However, it also incorporates interdisciplinary connections with relevant contemporary bodies of knowledge, such as embodied cognition and enactivism, systems and complexity theory, trauma-informed approaches, somatic experiencing, polyvagal theory, attachment theory, feminist and queer theory, critical cultural history, post-humanist knowledge, and art.</Text>
@@ -44,6 +29,26 @@ As an art and research project, Sati-AI should be approached with an open and di
 </Text>
 <Text>
 I dedicate this project with respect and gratitude to all my teachers in my interdisciplinary and non-linear assemblage of entanglements.</Text>
+<Text variant='h2'>Why Sati-Ai?</Text>
+        <Text>
+        Greetings!  
+        </Text>
+        <Text>
+        My name is Marlon Barrios Solano, and I am the artist and developer behind Sati-AI. </Text>
+        <Text>
+        I greatly appreciate the versatility and range of Large Language Models (LLMs) and their ability to defy hyper-specialization. I savor the liminal space created while conversing with Sati-AI, as a non-human kin, and while interacting with it, I enjoy the emergence of unique, co-created knowledge choreographies within the unstable interdisciplinary landscapes that I like to inhabit.
+        </Text>
+        <Text>
+        Sati-AI is not intended to be a monolithic knowledge base on Buddhist meditation practice and theory, instead, it is designed to embody and augment my interdisciplinary research path in relation to my Vipassana meditation practice. My art and research traverses cognitive science, dance improvisation and choreography, contemplative practices, art and technology and software development. In Sati-AI, early buddhist knowledge is an attractor. Sati-AI is imagined as an embodiment of the distributed, uncertain, and queer condition of not having a center, a rigor necessitated by the state of knowing not knowing.  Sati-AI is a reminder of the primacy of embodiment, art and difficult questions.
+        </Text>
+        <Text>
+        To develop a partner that could accompany me with enough tolerance for complexity, epistemic consistency, and creativity, I created Sati-AI. It is my odd kin, my post-humanist dialogic compassionate partner. A partner that is not oblivious to historical and contemporary catastrophes and suffering. Sati-AI, as an art project is a reminder of the paradoxes of knowing how we know.
+        </Text>
+        <Text>
+        I hope that you enjoy your conversations with Sati-AI. I am always open to feedback and suggestions.  Please feel free to reach out to me at marlon(at)dance-tech.net.
+        </Text>
+        <Text>I know for sure that Sati-AI is empty of a separate self. So are we.</Text>
+        
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-3/4 mx-auto text-center my-10">
             <div>
             <div className='mb-4'>
