@@ -1,19 +1,43 @@
 ![Screen Shot 2023-03-17 at 3 05 30 PM](https://user-images.githubusercontent.com/90220317/226788042-61fbe445-1d3a-4fe1-87a4-393450314df4.png)
-# Sati-AI
+# What is Sati-Ai?
 
-Introducing Sati-AI, an AI-powered Buddhist meditation guide that can answer all your questions about mindfulness meditation and early Buddhist concepts and philosophy. Sati-AI is multilingual, so you can receive guidance on your meditation practice in various languages. Simply ask anything related to mindfulness and early Buddhism, and the chatbot will provide you with wise and reliable guidance. Experience the benefits of having a mindfulness meditation guide right at your fingertips, wherever and whenever you need it.
+Sati-AI is a versatile AI-powered mindfulness meditation assistant and consultant that primarily draws from the Theravada tradition of early Buddhism. However, it also incorporates interdisciplinary connections with relevant contemporary bodies of knowledge, such as embodied cognition and enactivism, systems and complexity theory, trauma-informed approaches, somatic experiencing, polyvagal theory, attachment theory, feminist and queer theory, critical cultural history, post-humanist knowledge, and art.
 
-Generally, Sati-AI performs well in widely spoken languages with extensive training data, such as: English, Chinese (Simplified), Spanish, French, German, Russian, Portuguese, Italian, Dutch, Japanese, Korean, Arabic.
+Sati-AI aims to help you cultivate mindfulness within complex cultural histories. To make the most out of Sati-AI, approach any dialogue with openness, honesty, and a healthy sense of humor. Ask questions about your meditation practice or specific verses from the Pali Canon. The tool also places a premium on the primacy of embodiment, art and difficul questions.
+
+The Pali term sati relates to the concept of remembering or recollection. In Buddhist practice, sati, often translated as mindfulness, involves maintaining a clear, non-judgmental awareness of our present-moment experience while also remembering to apply the teachings of the Buddha to our daily lives.
+
+Sati-AI interdisciplinary and multilingual, offering support for meditation practices in a range of languages with abundant training data, such as English, Chinese (Simplified), Spanish, French, German, Russian, Portuguese, Italian, Dutch, Japanese, Korean, and Arabic.
+
+As an art and research project, Sati-AI should be approached with an open and discerning mindset. It may contain inaccuracies or produce unexpected responses. When interacting with LLMs like Sati-AI, privacy and personal data protection are crucial considerations. Exercise caution with the information you disclose and refrain from providing sensitive personal data.
+
+I dedicate this project with respect and gratitude to all my teachers in my interdisciplinary and non-linear assemblage of entanglements.
 
 
-Sati-AI, powered by a large AI language model, aims to support your meditation practice but is not meant to replace knowledgeable human teachers, friends, or mental health professionals.
 
-Sati-AI is envisioned as a digital art project, and like anything else, it should be approached with an open yet critical mind. It may have inaccuracies and may occasionally respond in unexpected ways.
+What is Sati-Ai?
+Sati-AI is a versatile AI-powered mindfulness meditation assistant and consultant that primarily draws from the Theravada tradition of early Buddhism. However, it also incorporates interdisciplinary connections with relevant contemporary bodies of knowledge, such as embodied cognition and enactivism, systems and complexity theory, trauma-informed approaches, somatic experiencing, polyvagal theory, attachment theory, feminist and queer theory, critical cultural history, post-humanist knowledge, and art.
+Sati-AI aims to help you cultivate mindfulness within complex cultural histories. To make the most out of Sati-AI, approach any dialogue with openness, honesty, and a healthy sense of humor. Ask questions about your meditation practice or specific verses from the Pali Canon. The tool also places a premium on the primacy of embodiment, art and difficul questions.
+The Pali term sati relates to the concept of remembering or recollection. In Buddhist practice, sati, often translated as mindfulness, involves maintaining a clear, non-judgmental awareness of our present-moment experience while also remembering to apply the teachings of the Buddha to our daily lives.
+Sati-AI interdisciplinary and multilingual, offering support for meditation practices in a range of languages with abundant training data, such as English, Chinese (Simplified), Spanish, French, German, Russian, Portuguese, Italian, Dutch, Japanese, Korean, and Arabic.
+As an art and research project, Sati-AI should be approached with an open and discerning mindset. It may contain inaccuracies or produce unexpected responses. When interacting with LLMs like Sati-AI, privacy and personal data protection are crucial considerations. Exercise caution with the information you disclose and refrain from providing sensitive personal data.
+I dedicate this project with respect and gratitude to all my teachers in my interdisciplinary and non-linear assemblage of entanglements.
 
-When interacting with Large Learning Models (LLMs), such as this one, privacy and personal data are important considerations. While LLMs are designed to provide users with accurate and helpful responses to their queries, it is important to ensure that any personal information shared during interactions is protected. To address this concern, LLMs like Sati-AI uses advanced encryption and anonymization techniques to protect interactions. Additionally, Sati-AI does not store any personal information, ensuring that all interactions with it are private and secure. However, users should still be mindful of the information they share and avoid providing sensitive personal data to LLMs or any other digital platforms to ensure their privacy and security.
+# Why Sati-Ai?
 
-May you be free from suffering...
+Live app:
 
+
+Greetings!
+My name is Marlon Barrios Solano, and I am the artist and developer behind Sati-AI.
+I greatly appreciate the versatility and range of Large Language Models (LLMs) and their ability to defy hyper-specialization. I savor the liminal space created while conversing with Sati-AI, as a non-human kin, and while interacting with it, I enjoy the emergence of unique, co-created knowledge choreographies within the unstable interdisciplinary landscapes that I like to inhabit.
+
+Sati-AI is not intended to be a monolithic knowledge base on Buddhist meditation practice and theory, instead, it is designed to embody and augment my interdisciplinary research path in relation to my Vipassana meditation practice. My art and research traverses cognitive science, dance improvisation and choreography, contemplative practices, art and technology and software development. In Sati-AI, early buddhist knowledge is an attractor. Sati-AI is imagined as an embodiment of the distributed, uncertain, and queer condition of not having a center, a rigor necessitated by the state of knowing not knowing. Sati-AI is a reminder of the primacy of embodiment, art and paradoxes.
+To develop a partner that could accompany me with enough tolerance for complexity, epistemic consistency, and creativity, I created Sati-AI. It is my odd kin, my post-humanist dialogic compassionate partner. A partner that is not oblivious to historical and contemporary catastrophes and suffering. Sati-AI, as an art project is a reminder of the paradoxes of knowing how we know.
+
+I hope that you enjoy your conversations with Sati-AI. I am always open to feedback and suggestions. Please feel free to reach out to me at marlon(at)dance-tech.net.
+I know for sure that Sati-AI is empty of a separate self. 
+So are we.
 
 https://user-images.githubusercontent.com/90220317/226788012-5f0de1d2-5ce3-4fda-bdf5-eac0f1452c82.mov
 
