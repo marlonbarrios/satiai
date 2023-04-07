@@ -9,7 +9,7 @@ const COOKIE_NAME = 'nextjs-example-ai-chat-gpt3'
 export const initialMessages: ChatGPTMessage[] = [
   {
     role: 'assistant',
-    content: "How would you like to be supported today?",
+    content: "Hello, how would you like to be supported today?",
   },
 ]
 
