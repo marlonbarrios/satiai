@@ -8,7 +8,7 @@ function Home() {
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-3">
         <div className="flex justify-between items-center"> 
-        <Text variant='h1'>Sati-Ai</Text>
+        <Text variant='h1'>Sati-Ai </Text>
          <div className="flex items-center">
        
             <Link href="/">
