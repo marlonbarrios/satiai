@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Text, Page } from '@vercel/examples-ui';
 import Link from 'next/link'
 import Forgive from '../components/Forgive';
+import Queerness from '../components/Queerness';
 import Image from 'next/image'
 
 function Examples() {
@@ -34,10 +35,10 @@ function Examples() {
                 Forgiveness
             </button>
             <button 
-                onClick={() => handleClick('Meditate')}
+                onClick={() => handleClick('Queerness')}
                 className="px-4 py-2 m-4 border border-zinc-400 rounded-xl active:bg-zinc-400 active:text-white"
             >
-                Meditation
+                Queerness
             </button>
             <Link href="/" className="px-4 py-3 m-4 border border-zinc-400 rounded-xl bg-zinc-400 text-white hover:bg-white hover:text-zinc-400">
                 Back Home
@@ -45,6 +46,7 @@ function Examples() {
         </div>
         {/* display the active component and hide all others */}
         {activeComponent === 'Forgive' && <Forgive />}
+        {activeComponent === 'Queerness' && <Queerness />}
       </section>
     </Page>
   );
