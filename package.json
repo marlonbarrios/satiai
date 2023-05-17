@@ -11,11 +11,15 @@
   "dependencies": {
     "@vercel/analytics": "^0.1.6",
     "@vercel/examples-ui": "^1.0.4",
+    "bootstrap": "^5.2.3",
     "eventsource-parser": "^0.1.0",
     "next": "latest",
+    "openai": "^3.2.1",
     "react": "latest",
+    "react-bootstrap": "^2.7.0",
     "react-cookie": "^4.1.1",
     "react-dom": "latest",
+    "react-spinners": "^0.13.8",
     "react-wrap-balancer": "^0.1.5"
   },
   "devDependencies": {
