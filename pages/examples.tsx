@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Forgive from '../components/Forgive';
 import Queerness from '../components/Queerness';
 import Thickpresent from '../components/Thickpresent';
+import Sabiduria from '../components/Sabiduria';
 import Image from 'next/image'
 
 function Examples() {
@@ -47,15 +48,24 @@ function Examples() {
             >
                Thick Present Meditation
             </button>
-
+            <button 
+                onClick={() => handleClick('Sabiduria')}
+                className="px-4 py-2 m-4 border border-zinc-400 rounded-xl active:bg-zinc-400 active:text-white"
+            >
+             Sabiduria
+            </button>
+            </div>
+            <div>
             <Link href="/" className="px-4 py-3 m-4 border border-zinc-400 rounded-xl bg-zinc-400 text-white hover:bg-white hover:text-zinc-400">
                 Back Home
             </Link>
-        </div>
+            </div>
+       
         {/* display the active component and hide all others */}
         {activeComponent === 'Forgive' && <Forgive />}
         {activeComponent === 'Queerness' && <Queerness />}
         {activeComponent === 'Thickpresent' && <Thickpresent />}
+        {activeComponent === 'Sabiduria' && <Sabiduria />}
       </section>
     </Page>
   );
