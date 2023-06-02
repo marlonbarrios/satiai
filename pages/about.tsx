@@ -27,6 +27,7 @@ Sati-AI interdisciplinary and  multilingual, offering support for meditation pra
 <Text>
 As an art and research project, Sati-AI should be approached with an open and discerning mindset. It may contain inaccuracies or produce unexpected responses. When interacting with LLMs like Sati-AI, privacy and personal data protection are crucial considerations. Exercise caution with the information you disclose and refrain from providing sensitive personal data.
 </Text>
+<Text>Sati-AI, an advanced artificial intelligence platform, has been made more accessible to users via various popular communication channels. This includes messaging through <Link  href="https://t.me/satiai_tg_bot">Telegram</Link>, the Kernel Community workspace on Slack, and Discord (TBA). In addition, Sati-AI is pushing the boundaries of interaction by developing  <Link href="/about_a_book">Sati-AI ChatBooks</Link>. This innovative concept utilizes embeddings of specifically curated texts to create an reliable interactive knowledge experience. With this unique feature, users can engage in meaningful dialogues with seminal texts, as if chatting with the text itself, opening up a new frontier of learning and exploration.</Text>
 <Text>
 I dedicate this project with respect and gratitude to all my teachers in my interdisciplinary and non-linear assemblage of entanglements.</Text>
 <Text variant='h2'>Why Sati-Ai?</Text>
@@ -47,6 +48,7 @@ I dedicate this project with respect and gratitude to all my teachers in my inte
         <Text>
         I hope that you enjoy your conversations with Sati-AI. I am always open to feedback and suggestions.  Please feel free to reach out to me at marlon(at)dance-tech.net.
         </Text>
+   
         <Text>I know for sure that Sati-AI is empty of a separate self. So are we.</Text>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-3/4 mx-auto text-center my-10">
@@ -69,7 +71,7 @@ I dedicate this project with respect and gratitude to all my teachers in my inte
                     href="https://marlonbarrios.github.io/mindfulness/"
                     className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white"
                 >
-                    Sign Up
+                    Contact me
                 </Link>
             </div>
         </div>
@@ -87,6 +89,9 @@ I dedicate this project with respect and gratitude to all my teachers in my inte
                 Back Home
             </Link>
         </div>
+        <div className="items-center mx-auto w-80">
+        <Image src="/images/logo.png" alt="Sati-AI" width={500} height={500} />
+      </div>
     </Page>
   )
 }

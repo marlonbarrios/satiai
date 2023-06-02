@@ -12,6 +12,14 @@ function About() {
 src="https://www.chatbase.co/chatbot-iframe/rwywgxD6qex8vZxO0rnCU"
 width="100%"
 height="700"></iframe>
+ 
+                <Link 
+                    href="https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/compassionemptiness.pdf"
+                    
+                >
+                    Download PDF of the book Compassion and Emptiness in Early Buddhist Meditation by Bhikkhu Analayo
+                </Link>
+          
      
        
       
@@ -35,7 +43,7 @@ height="700"></iframe>
                     href="https://marlonbarrios.github.io/mindfulness/"
                     className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white"
                 >
-                    Sign Up
+                    Contact Me
                 </Link>
             </div>
         </div>

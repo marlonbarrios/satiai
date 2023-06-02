@@ -40,15 +40,22 @@ Note that Sati-AI cannot replace a trained human teacher or mental health profes
         </Link>
       </div>
       <div className="text-center">
-        <Link href="/examples" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-          Examples
-        </Link>
-      </div>
-      <div className="text-center">
         <Link href="/about_a_book" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
         Sati-AI ChatBooks
         </Link>
       </div>
+      <div className="text-center">
+        <Link href="https://t.me/satiai_tg_bot" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
+        Sati-AI in Telegram App
+        </Link>
+      </div>
+      <div className="text-center">
+        <Link href="/examples" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
+          Conversation Examples
+        </Link>
+      </div>
+      
+     
       <div className="items-center mx-auto w-80">
         <Image src="/images/logo.png" alt="Sati-AI" width={500} height={500} />
       </div>
