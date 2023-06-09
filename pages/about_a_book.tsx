@@ -36,7 +36,7 @@ height="700"></iframe>
      
                 </section>
       
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-3/4 mx-auto text-center">
+      
         <div className="text-center">
           
                 <Link 
@@ -47,7 +47,7 @@ height="700"></iframe>
                 </Link>
             </div>
            
-            </div>
+        
        
        
         <div className="text-center">
