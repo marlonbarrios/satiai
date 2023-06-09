@@ -15,13 +15,13 @@ height="700"></iframe>
 
 
                 <Link 
-                    href="https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/compassionemptiness.pdf"
+                    href="https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/direct-path.pdf"
                     
                 >
                     Download PDF of the book Satipatthana: The Direct Path to Realization by Bhikkhu Analayo
                 </Link>
                 <Link 
-                    href="https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/compassionemptiness.pdf"
+                    href="https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/satipatthanapracticeguide.pdf"
                     
                 >
                     Download PDF of the book Early Buddhist Satipaṭṭhāna Meditation: A Practice Guide by Bhikkhu Analayo
