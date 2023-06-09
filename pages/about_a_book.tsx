@@ -36,8 +36,8 @@ height="700"></iframe>
      
                 </section>
       
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-3/4 mx-auto text-center my-10">
-            <div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-3/4 mx-auto text-center">
+        <div className="text-center">
           
                 <Link 
                     href="https://linktr.ee/marlonbarriososolano"
@@ -47,7 +47,7 @@ height="700"></iframe>
                 </Link>
             </div>
            
-        </div>
+            </div>
        
        
         <div className="text-center">
@@ -55,6 +55,7 @@ height="700"></iframe>
                 Back Home
             </Link>
         </div>
+       
     </Page>
   )
 }
