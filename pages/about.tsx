@@ -51,7 +51,8 @@ I dedicate this project with respect and gratitude to all my teachers in my inte
    
         <Text>I know for sure that Sati-AI is empty of a separate self. So are we.</Text>
         </section>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-3/4 mx-auto text-center">
+ 
+
         <div className="text-center">
         
         <Link 
@@ -63,7 +64,7 @@ I dedicate this project with respect and gratitude to all my teachers in my inte
     </div>
      
             
-        </div>
+        
    
         <div className="text-center">
         <Link href="/about_a_book" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
@@ -85,6 +86,7 @@ I dedicate this project with respect and gratitude to all my teachers in my inte
                 Back Home
             </Link>
         </div>
+       
         <div className="items-center mx-auto w-80">
         <Image src="/images/logo.png" alt="Sati-AI" width={500} height={500} />
       </div>
