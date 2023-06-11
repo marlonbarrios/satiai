@@ -81,6 +81,11 @@ I dedicate this project with respect and gratitude to all my teachers in my inte
           Conversation Examples
         </Link>
       </div>
+      <div className="text-center">
+        <Link href="https://sati-remember.netlify.app/" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
+        A poem and an image for you
+        </Link>
+      </div>
         <div className="text-center">
             <Link href="/" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
                 Back Home
