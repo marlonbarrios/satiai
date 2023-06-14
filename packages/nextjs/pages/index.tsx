@@ -1,5 +1,10 @@
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Forgive from "../components/examples/Forgive";
+import Queerness from "../components/examples/Queerness";
+import Sabiduria from "../components/examples/Sabiduria";
+import Thickpresent from "../components/examples/Thickpresent";
 import type { NextPage } from "next";
 import { BugAntIcon, MagnifyingGlassIcon, SparklesIcon } from "@heroicons/react/24/outline";
 import { MetaHeader } from "~~/components/MetaHeader";
@@ -7,6 +12,10 @@ import { Mint } from "~~/components/Mint";
 import { Chat } from "~~/components/chat/Chat";
 
 const Home: NextPage = () => {
+  const [activeComponent, setActiveComponent] = useState("");
+  const handleClick = (component: string) => {
+    setActiveComponent(component);
+  };
   return (
     <>
       <MetaHeader />
@@ -57,6 +66,42 @@ const Home: NextPage = () => {
             </p>
             <Mint />
           </div>
+        </div>
+
+        <div className="px-5 md:w-1/2">
+          <h1 className="my-6">
+            <span className="block text-4xl font-bold">Example Conversations</span>
+          </h1>
+          <div>
+            <button
+              onClick={() => handleClick("Forgive")}
+              className="px-4 py-2 m-4 border border-zinc-400 rounded-xl active:bg-zinc-400 active:text-white"
+            >
+              Forgiveness
+            </button>
+            <button
+              onClick={() => handleClick("Queerness")}
+              className="px-4 py-2 m-4 border border-zinc-400 rounded-xl active:bg-zinc-400 active:text-white"
+            >
+              Queerness
+            </button>
+            <button
+              onClick={() => handleClick("Thickpresent")}
+              className="px-4 py-2 m-4 border border-zinc-400 rounded-xl active:bg-zinc-400 active:text-white"
+            >
+              Thick Present Meditation
+            </button>
+            <button
+              onClick={() => handleClick("Sabiduria")}
+              className="px-4 py-2 m-4 border border-zinc-400 rounded-xl active:bg-zinc-400 active:text-white"
+            >
+              Sabiduria
+            </button>
+          </div>
+          {activeComponent === "Forgive" && <Forgive />}
+          {activeComponent === "Queerness" && <Queerness />}
+          {activeComponent === "Thickpresent" && <Thickpresent />}
+          {activeComponent === "Sabiduria" && <Sabiduria />}
         </div>
 
         <div className="flex-grow bg-base-300 w-full mt-16 px-8 py-12">
