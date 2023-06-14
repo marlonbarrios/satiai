@@ -5,10 +5,7 @@ This is a working branch fo Sati AI.
 ## TODO
 
 1. Figure out how to render token by token when using a reducer so that people don't wait so long for responses.
-2. Format messages before
-3. Uploading messages to IPFS (likely with nft.storage, set in the env)
-4. Add back other pages: about, books etc
-5. Import the images app and clean it up
+2. Import the images app and clean it up
 
 We are deeply indebted to the [🏗 Scaffold-ETH](https://github.com/scaffold-eth/scaffold-eth-2/) for providing such an awesome framework to play with. By following the link above, you can read more about how to use what they have made more extensively. We'll simply include the information necessary to run the code in this repo for brevity.
 
