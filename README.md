@@ -19,7 +19,7 @@ Before you begin, you need to install the following tools:
 
 ### Get Started
 
-To get started with Scaffold-ETH 2, follow the steps below:
+To get started, follow the steps below:
 
 1. Clone this repo & install dependencies
 
@@ -51,6 +51,6 @@ This command deploys a test smart contract to the local network. The contract is
 yarn start
 ```
 
-Visit your app on: `http://localhost:3000`. We have also included a subgraph in this repo, and implemented an example component to illustrate how to use it to fetch data about which accounts have minted NFTs. All the relevant code is in in `packages/subgraph` and `packages/nextjs/components/Subgraph.tsx`.
+Visit your app on: `http://localhost:3000`.
 
 If you learn from videos better than you do from text, we recommend you sit back, relax, and enjoy [Austin explaining everything here](https://youtu.be/98gMdk5oWmc). Austin will give a great sense of how to begin messing around with this contract and getting it into a state where it has everything you need and nothing you don't.
