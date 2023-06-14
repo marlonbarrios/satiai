@@ -109,7 +109,7 @@ const Home: NextPage = () => {
             <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
               <BugAntIcon className="h-8 w-8 fill-secondary" />
               <p>
-                Tinker with our ERC721A NFT contract using the{" "}
+                Tinker with our unique NFT contract using the{" "}
                 <Link href="/debug" passHref className="link">
                   Debug Contract
                 </Link>{" "}

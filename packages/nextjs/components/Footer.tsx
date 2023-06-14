@@ -14,7 +14,7 @@ export const Footer = () => {
           <div className="flex justify-center items-center gap-2 text-sm w-full">
             <div>
               <a
-                href="https://github.com/andytudhope/earthart"
+                href="https://github.com/andytudhope/satiai"
                 target="_blank"
                 rel="noreferrer"
                 className="underline underline-offset-2"
@@ -24,14 +24,14 @@ export const Footer = () => {
             </div>
             <span>·</span>
             <div>
-              Built with <HeartIcon className="inline-block h-4 w-4" /> at 🏰{" "}
+              Built with <HeartIcon className="inline-block h-4 w-4" /> at{" "}
               <a
-                href="https://buidlguidl.com/"
+                href="https://kernel.community/"
                 target="_blank"
                 rel="noreferrer"
                 className="underline underline-offset-2"
               >
-                BuidlGuidl
+                Kernel
               </a>
             </div>
             <span>·</span>
