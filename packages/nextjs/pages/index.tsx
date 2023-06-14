@@ -37,6 +37,11 @@ const Home: NextPage = () => {
           <p className="text-center text-lg">
             <i>Note that Sati-AI cannot replace a trained human teacher or mental health professional.</i>
           </p>
+          <p className="text-lg">
+            You may choose to &rdquo;memorialise&ldquo; any conversation with Sati as a Non-Fungible Token, or NFT. That
+            way, you will always have access to the wisdom shared here. We display all NFTs ever minted, so that
+            everyone can learn from the different conversations we each choose to have with Sati.
+          </p>
           <h1 className="my-6">
             <span className="block text-4xl font-bold">May you be free from suffering...</span>
           </h1>

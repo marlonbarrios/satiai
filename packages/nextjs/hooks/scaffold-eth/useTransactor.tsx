@@ -55,7 +55,7 @@ export const useTransactor = (_signer?: Signer): TTransactionFunc => {
       const provider = signer.provider;
       const network = await provider?.getNetwork();
 
-      notificationId = notification.loading(<TxnNotification message="Awaiting for user confirmation" />);
+      notificationId = notification.loading(<TxnNotification message="Awaiting your confirmation" />);
       if (tx instanceof Promise) {
         // Tx is already prepared by the caller
         transactionResponse = await tx;

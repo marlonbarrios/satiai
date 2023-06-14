@@ -10,9 +10,13 @@ interface ChatGPTMessage {
 type State = {
   messages: ChatGPTMessage[];
   loading: boolean;
+  metadata: string;
 };
 
-type Action = { type: "SET_MESSAGES"; payload: ChatGPTMessage[] } | { type: "SET_LOADING"; payload: boolean };
+type Action =
+  | { type: "SET_MESSAGES"; payload: ChatGPTMessage[] }
+  | { type: "SET_LOADING"; payload: boolean }
+  | { type: "SET_METADATA"; payload: string };
 
 // Define initial state
 const initialState: State = {
@@ -23,6 +27,7 @@ const initialState: State = {
     },
   ],
   loading: false,
+  metadata: "",
 };
 
 // Define reducer function
@@ -37,6 +42,11 @@ const messagesReducer = (state: State, action: Action): State => {
       return {
         ...state,
         loading: action.payload,
+      };
+    case "SET_METADATA":
+      return {
+        ...state,
+        metadata: action.payload,
       };
     default:
       return state;
