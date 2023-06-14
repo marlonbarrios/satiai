@@ -48,7 +48,7 @@ function About() {
             </Link>
             , the Kernel Community workspace on Slack, and Discord (TBA). In addition, Sati-AI is pushing the boundaries
             of interaction by developing{" "}
-            <Link className="font-bold underline" href="/about_a_book">
+            <Link className="font-bold underline" href="/book">
               Sati-AI ChatBooks
             </Link>
             . This innovative concept utilizes embeddings of specifically curated ps to create an reliable interactive
@@ -99,7 +99,7 @@ function About() {
             <Link href="https://linktr.ee/marlonbarriososolano">Marlon Barrios Solano links</Link>
           </div>
           <div className="btn btn-primary px-4 mb-2">
-            <Link href="/about_a_book">Sati-AI ChatBooks</Link>
+            <Link href="/book">Sati-AI ChatBooks</Link>
           </div>
           <div className="btn btn-primary px-4 mb-2">
             <Link href="https://t.me/satiai_tg_bot">Sati-AI in Telegram App</Link>
