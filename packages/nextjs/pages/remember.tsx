@@ -48,7 +48,7 @@ function Remember() {
     openai
       .createCompletion({
         model: "text-davinci-003",
-        prompt: `Create a prompt as a teaching poem in Pali using at least one of the three marks of existence as a guide; then use Pali and translate to English. Write the full English text first, then the Pali. Max 50 words`,
+        prompt: `Create a prompt as a teaching poem in Pali using at least one of the three marks of existence as a guide; then use Pali and translate to English. Write the full English text first, then the Pali. Max 50 words.`,
         temperature: 0.2,
         max_tokens: 300,
         top_p: 1,
