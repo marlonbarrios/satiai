@@ -1,9 +1,11 @@
+import { useState } from "react";
 import { NFTStorage } from "nft.storage";
 import { useMessages } from "~~/contexts/Messages";
 import { useScaffoldContractWrite } from "~~/hooks/scaffold-eth";
 
 export const Mint = () => {
   const { state, dispatch } = useMessages();
+  const [loading, setLoading] = useState(false);
   // first, we need to clean up the conversation so it is stored in a readable and delightful form
   // we use three new lines to separate calls and responses as Sati sometimes uses \n\n itself.
   const conversation = state.messages
@@ -29,6 +31,7 @@ export const Mint = () => {
 
   // third, we need to store the conversation in IPFS
   const storeNFT = async () => {
+    setLoading(true);
     const nft = {
       image: await getImage(),
       name: "Sati AI Conversation",
@@ -42,14 +45,15 @@ export const Mint = () => {
 
     const client = new NFTStorage({
       token:
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweEE2MDJlZTcyRTM2ODBmMDVhNDIwNGRhOWVkYTAyRTBEOWYzMjQyM0QiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY4NTcxMjU3MzQ3NywibmFtZSI6IkFldGhlciwgRWFydGgsICYgQXJ0In0.jMHzKv6UAWNiaQRFV32DEgtoijkeigt7WSTJIMtx41A",
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweEE2MDJlZTcyRTM2ODBmMDVhNDIwNGRhOWVkYTAyRTBEOWYzMjQyM0QiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY4Njg0NDE3NTU0NywibmFtZSI6IlNhdGkifQ.vbAZz-Y4aFXSiH-zxGWoGRC4dkwcHhI3x2DrKcyqQv4",
     });
     const metadata = await client.store(nft);
 
     console.log("NFT data stored!");
     console.log("Metadata URI: ", metadata.url);
     dispatch({ type: "SET_METADATA", payload: metadata.url });
-    writeAsync();
+    await writeAsync();
+    setLoading(false);
   };
 
   // now, we can mint a new NFT with the IPFS hash
@@ -66,8 +70,13 @@ export const Mint = () => {
 
   return (
     <div className="text-center">
-      <button className="btn btn-primary px-10" onClick={storeNFT}>
-        Memorialise
+      <button
+        className={`btn btn-primary px-10 rounded-full space-x-3 ${
+          loading ? "loading before:!w-4 before:!h-4 before:!mx-0" : ""
+        }`}
+        onClick={storeNFT}
+      >
+        {loading ? "" : "Memorialise"}
       </button>
     </div>
   );

@@ -91,12 +91,12 @@ function About() {
           </p>
           <p>I know for sure that Sati-AI is empty of a separate self. So are we.</p>
           <h1 className="my-6">
-            <span className="block text-4xl font-bold">Useful Links</span>
+            <span className="block text-4xl font-bold">Further Links</span>
           </h1>
         </div>
         <div className="flex flex-wrap gap-2 md:w-1/2 mb-2">
           <div className="btn btn-primary px-4 mb-2">
-            <Link href="https://linktr.ee/marlonbarriososolano">Marlon Barrios Solano links</Link>
+            <Link href="https://linktr.ee/marlonbarriososolano">My linktree</Link>
           </div>
           <div className="btn btn-primary px-4 mb-2">
             <Link href="/book">Sati-AI ChatBooks</Link>

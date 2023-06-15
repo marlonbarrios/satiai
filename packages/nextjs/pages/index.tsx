@@ -70,7 +70,9 @@ const Home: NextPage = () => {
 
         <div className="px-5 md:w-1/2">
           <h1 className="my-6">
-            <span className="block text-4xl font-bold">Example Conversations</span>
+            <span id="examples" className="block text-4xl font-bold">
+              Example Conversations
+            </span>
           </h1>
           <div>
             <button

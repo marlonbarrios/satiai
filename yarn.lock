@@ -1979,10 +1979,10 @@ __metadata:
     eslint-plugin-prettier: ^4.2.1
     ethers: ^5.0.0
     eventsource-parser: ^0.1.0
-    mime: ^3.0.0
     next: ^13.1.6
     nextjs-progressbar: ^0.0.16
     nft.storage: ^7.1.0
+    openai: ^3.1.0
     postcss: ^8.4.16
     prettier: ^2.8.4
     react: ^18.2.0
@@ -4684,6 +4684,15 @@ __metadata:
   dependencies:
     follow-redirects: ^1.14.0
   checksum: 44245f24ac971e7458f3120c92f9d66d1fc695e8b97019139de5b0cc65d9b8104647db01e5f46917728edfc0cfd88eb30fc4c55e6053eef4ace76768ce95ff3c
+  languageName: node
+  linkType: hard
+
+"axios@npm:^0.26.0":
+  version: 0.26.1
+  resolution: "axios@npm:0.26.1"
+  dependencies:
+    follow-redirects: ^1.14.8
+  checksum: d9eb58ff4bc0b36a04783fc9ff760e9245c829a5a1052ee7ca6013410d427036b1d10d04e7380c02f3508c5eaf3485b1ae67bd2adbfec3683704745c8d7a6e1a
   languageName: node
   linkType: hard
 
@@ -7781,7 +7790,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.12.1, follow-redirects@npm:^1.14.0, follow-redirects@npm:^1.15.0":
+"follow-redirects@npm:^1.12.1, follow-redirects@npm:^1.14.0, follow-redirects@npm:^1.14.8, follow-redirects@npm:^1.15.0":
   version: 1.15.2
   resolution: "follow-redirects@npm:1.15.2"
   peerDependenciesMeta:
@@ -10431,15 +10440,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mime@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "mime@npm:3.0.0"
-  bin:
-    mime: cli.js
-  checksum: f43f9b7bfa64534e6b05bd6062961681aeb406a5b53673b53b683f27fcc4e739989941836a355eef831f4478923651ecc739f4a5f6e20a76487b432bfd4db928
-  languageName: node
-  linkType: hard
-
 "mimic-fn@npm:^2.1.0":
   version: 2.1.0
   resolution: "mimic-fn@npm:2.1.0"
@@ -11462,6 +11462,16 @@ __metadata:
     is-docker: ^2.1.1
     is-wsl: ^2.2.0
   checksum: e9545bec64cdbf30a0c35c1bdc310344adf8428a117f7d8df3c0af0a0a24c513b304916a6d9b11db0190ff7225c2d578885080b761ed46a3d5f6f1eebb98b63c
+  languageName: node
+  linkType: hard
+
+"openai@npm:^3.1.0":
+  version: 3.3.0
+  resolution: "openai@npm:3.3.0"
+  dependencies:
+    axios: ^0.26.0
+    form-data: ^4.0.0
+  checksum: 28ccff8c09b6f47828c9583bb3bafc38a8459c76ea10eb9e08ca880f65523c5a9cc6c5f3c7669dded6f4c93e7cf49dd5c4dbfd12732a0f958c923117740d677b
   languageName: node
   linkType: hard
 
