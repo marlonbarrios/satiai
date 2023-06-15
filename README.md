@@ -5,7 +5,7 @@ This is a working branch fo Sati AI.
 ## TODO
 
 1. Figure out how to render token by token when using a reducer so that people don't wait so long for responses.
-2. Import the images app and clean it up
+2. Deploy on a testnet, write a subgraph to fetch NFTs, display the conversations in those NFTs.
 
 We are deeply indebted to the [🏗 Scaffold-ETH](https://github.com/scaffold-eth/scaffold-eth-2/) for providing such an awesome framework to play with. By following the link above, you can read more about how to use what they have made more extensively. We'll simply include the information necessary to run the code in this repo for brevity.
 
@@ -43,7 +43,7 @@ This command starts a local Ethereum network using Hardhat. The network runs on 
 yarn deploy
 ```
 
-This command deploys a test smart contract to the local network. The contract is located in `packages/hardhat/contracts` and can be modified to suit your needs. The `yarn deploy` command uses the deploy script located in `packages/hardhat/deploy` to deploy the contract to the network. You can also customize the deploy script.
+This command deploys a test smart contract to the local network. The contract is located in `packages/hardhat/contracts`. The `yarn deploy` command uses the deploy script located in `packages/hardhat/deploy` to deploy the contract to the network.
 
 4. On a third terminal, start your NextJS app:
 
