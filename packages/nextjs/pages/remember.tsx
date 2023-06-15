@@ -38,7 +38,7 @@ function Remember() {
     setState({ ...state, imageUrl: "/loading.gif", generatedText: "", isLoading: true });
 
     const configuration = new Configuration({
-      apiKey: "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",
+      apiKey: "",
     });
 
     const openai = new OpenAIApi(configuration);
