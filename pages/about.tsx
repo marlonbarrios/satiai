@@ -57,14 +57,7 @@ I dedicate this project with respect and gratitude to all my teachers in my inte
  
 
        
-      <div className="text-center">
-        <Link 
-            href="https://linktr.ee/marlonbarriososolano"
-            className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-            Concept, programming and prompt engineering by Marlon Barrios Solano
-        </Link>
-    </div>
-
+   
 
     <div className="text-center">
     <Text>
@@ -73,12 +66,14 @@ I dedicate this project with respect and gratitude to all my teachers in my inte
             </Link>
         </Text>
         </div>
-   
-        
-   
         <div className="text-center">
         <Link href="/about_a_book" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
         Sati-AI ChatBooks
+        </Link>
+      </div>
+      <div className="text-center">
+        <Link href="/about_an_article" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
+       Lets chat about that interview in LionsRoar
         </Link>
       </div>
       <div className="text-center">
@@ -102,7 +97,13 @@ I dedicate this project with respect and gratitude to all my teachers in my inte
        Body of the Breath (Ephemeral Art Object)
         </Link>
       </div>
-       
+      <div className="text-center">
+        <Link 
+            href="https://linktr.ee/marlonbarriososolano"
+            className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
+            Concept, programming and prompt engineering by Marlon Barrios Solano
+        </Link>
+    </div>
         <div className="text-center">
             <Link href="/" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
                 Back Home

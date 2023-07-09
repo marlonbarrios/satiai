@@ -8,31 +8,18 @@ function About() {
       <section className="flex flex-col gap-3 text-zinc-600">
     
        
-        <iframe
-src="https://www.chatbase.co/chatbot-iframe/rwywgxD6qex8vZxO0rnCU"
+
+<iframe
+src="https://www.chatbase.co/chatbot-iframe/NdutSkHh5UvoI8oqijyBc"
 width="100%"
 height="600"></iframe>
 
-
                 <Link 
-                    href="https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/direct-path.pdf"
+                    href="https://www.lionsroar.com/ai-meditation-teacher/"
                     
-                >
-                    Download PDF of the book Satipatthana: The Direct Path to Realization by Bhikkhu Analayo
-                </Link>
-                <Link 
-                    href="https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/satipatthanapracticeguide.pdf"
-                    
-                >
-                    Download PDF of the book Early Buddhist Satipaṭṭhāna Meditation: A Practice Guide by Bhikkhu Analayo
-                </Link>
-                <Link 
-                    href="https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/compassionemptiness.pdf"
-                    
-                >
-                    Download PDF of the book Compassion and Emptiness in Early Buddhist Meditation by Bhikkhu Analayo
-                </Link>
-          
+                >Go to article: Meet Sati-AI, a Non-Human Mindfulness Meditation Teacher
+BY ROSS NERVIG AND MARLON BARRIOS SOLANO| JUNE 15, 2023</Link>
+              
      
                 </section>
       
