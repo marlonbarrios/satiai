@@ -17,7 +17,7 @@ function Home() {
           </div>
           
         </div>
-        <Text className="text-zinc-600">Sati-AI is a multi-lingual AI-powered mindfulness meditation assistant and consultant that incorporates interdisciplinary connections with contemporary knowledge, such as embodied cognition and enactivism, trauma-informed approaches, and art. It primarily draws from the Theravada tradition of early Buddhism to help you cultivate mindfulness within complex cultural histories.
+        <Text className="text-zinc-600">Sati-AI is a multi-lingual AI-powered mindfulness meditation and buddhist wisdom guide that incorporates interdisciplinary connections with contemporary knowledge, such as embodied cognition and enactivism, trauma-informed approaches, and art. It primarily draws from the Theravada tradition of early Buddhism to help you cultivate mindfulness and wisdom within complex cultural histories.
         </Text>
         <Text className="text-zinc-600">
 Approach any dialogue with Sati-AI with openness, honesty, and a sense of humor. Ask about your meditation practice or specific verses from the Pali Canon. The tool also emphasizes the importance of embodiment and art.
