@@ -73,7 +73,7 @@ I dedicate this project with respect and gratitude to all my teachers in my inte
       </div>
       <div className="text-center">
         <Link href="/about_an_article" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-       Lets chat about that interview in LionsRoar
+       Ask me about the interview in LionsRoar
         </Link>
       </div>
       <div className="text-center">
@@ -89,19 +89,19 @@ I dedicate this project with respect and gratitude to all my teachers in my inte
       
       <div className="text-center">
         <Link href="https://sati-remember.netlify.app/" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-       Remember This (Ephemeral Art Object)
+       Remember This (Art)
         </Link>
       </div>
       <div className="text-center">
         <Link href="https://marlonbarrios.github.io/bodyofthebreath/" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-       Body of the Breath (Ephemeral Art Object)
+       Body of the Breath (Art)
         </Link>
       </div>
       <div className="text-center">
         <Link 
             href="https://linktr.ee/marlonbarriososolano"
             className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-            Concept, programming and prompt engineering by Marlon Barrios Solano
+            Created by Marlon Barrios Solano
         </Link>
     </div>
         <div className="text-center">

@@ -43,12 +43,11 @@ Note that Sati-AI cannot replace a trained human teacher or mental health profes
     <div className="text-center">
     <Text>
             <Link href="https://openai.com/gpt-4" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-                Sati-Ai is powered by GPT-4 from OpenAI
+                Sati-Ai is powered by GPT-4
             </Link>
         </Text>
         </div>
    
-
       <div className="text-center">
         <Link href="/about_a_book" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
         Sati-AI ChatBooks
@@ -56,18 +55,18 @@ Note that Sati-AI cannot replace a trained human teacher or mental health profes
       </div>
       <div className="text-center">
         <Link href="/about_an_article" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-       Lets chat about that interview in LionsRoar
+        Ask me about the interview in LionsRoar
         </Link>
       </div>
      
       <div className="text-center">
         <Link href="https://sati-remember.netlify.app/" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-       Remember This (Ephemeral Art Object)
+       Remember This (Art)
         </Link>
       </div>
       <div className="text-center">
         <Link href="https://marlonbarrios.github.io/bodyofthebreath/" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-       Body of the Breath (Ephemeral Art Object)
+       Body of the Breath (art)
         </Link>
       </div>
        
@@ -86,13 +85,10 @@ Note that Sati-AI cannot replace a trained human teacher or mental health profes
             href="https://linktr.ee/marlonbarriososolano"
             className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white"
         >
-            Concept, programming and prompt engineering by Marlon Barrios Solano
+            Created by Marlon Barrios Solano
         </Link>
     </div>
 
-
-      
-     
       <div className="items-center mx-auto w-80">
         <Image src="/images/logo.png" alt="Sati-AI" width={500} height={500} />
       </div>
