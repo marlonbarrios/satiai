@@ -29,7 +29,7 @@ function About() {
           defer
         />
 
-        <Link href="https://youtu.be/vgZMPcrRmio">Go to the video in YouTube </Link>
+       
       </section>
 
       <div className="text-center">
