@@ -1,6 +1,7 @@
-import { Page } from '@vercel/examples-ui'
+
 import Link from 'next/link'
 import Script from 'next/script'
+import { Text, Page } from '@vercel/examples-ui'
 
 function About() {
   return (
@@ -31,6 +32,36 @@ function About() {
 
        
       </section>
+      <Text className="text-center">
+      Examples of Questions:
+      </Text>
+      
+ <Text className="text-center">
+      Why does Varela believe it is important to remind ourselves of the interconnectedness of science, art, and spirituality?</Text>
+
+      <Text className="text-center">
+How does Varela view the relationship between his scientific work and the world around him?</Text>
+
+<Text className="text-center">
+What does Varela believe is the key to understanding cognition?</Text>
+
+<Text className="text-center">
+How does Varela suggest that biology holds the key to understanding cognition?</Text>
+<Text className="text-center">
+      What does Varela mean by the term “enactive”?
+      </Text>
+
+<Text className="text-center">
+What does Varela mean by bringing forth a world and how does it relate to the concept of multiversality?</Text>
+
+<Text className="text-center">
+How does Varela use the example of color vision to illustrate the concept of multiversality?</Text>
+ 
+<Text className="text-center">
+What does Varela suggest about the universality and cultural construct of perception and feeling?</Text>
+
+<Text className="text-center">
+How does Varelas perspective challenge traditional notions of perception and cognition?</Text>
 
       <div className="text-center">
         <Link href="https://linktr.ee/marlonbarriososolano" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
