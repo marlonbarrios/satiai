@@ -1,6 +1,6 @@
 import { Text, Page } from '@vercel/examples-ui'
 import Link from 'next/link'
-import Image from 'next/image'
+
 
 function About() {
   return (
