@@ -36,7 +36,7 @@ function About() {
       <Text className="text-center">
     
       Examples of Questions:
-     (Access the chatbot by clicking on the icon on the bottom right corner of the screen)
+     (Access Sati-Ai by clicking on the icon on the bottom right corner of the screen)
       </Text>
       
  <Text className="text-center">

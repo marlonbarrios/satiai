@@ -27,9 +27,12 @@ Sati-AI interdisciplinary and  multilingual, offering support for meditation pra
 <Text>
 As an art and research project, Sati-AI should be approached with an open and discerning mindset. It may contain inaccuracies or produce unexpected responses. When interacting with LLMs like Sati-AI, privacy and personal data protection are crucial considerations. Exercise caution with the information you disclose and refrain from providing sensitive personal data.
 </Text>
-<Text>Sati-AI, an advanced artificial intelligence platform, has been made more accessible to users via various popular communication channels. This includes messaging through <Link  href="https://t.me/satiai_tg_bot">Telegram</Link>, the Kernel Community workspace on Slack, and Discord (TBA). In addition, Sati-AI is pushing the boundaries of interaction by developing  <Link href="/about_a_book">Sati-AI ChatBooks</Link>. This innovative concept utilizes embeddings of specifically curated texts to create an reliable interactive knowledge experience. With this unique feature, users can engage in meaningful dialogues with seminal texts, as if chatting with the text itself, opening up a new frontier of learning and exploration.</Text>
-<Text>
-I dedicate this project with respect and gratitude to all my teachers in my interdisciplinary and non-linear assemblage of entanglements.</Text>
+<Text>Sati-AI, an advanced artificial intelligence platform, has been made more accessible to users via various popular communication channels. This includes messaging through <Link  href="https://t.me/satiai_tg_bot">Telegram</Link>. In addition, Sati-AI is pushing the boundaries of interaction by developing<Link href="/about_a_book">Sati-AI ChatBook</Link> and <Link href="/about_a_video">Sati-AI ChatVideo</Link>. This innovative concept utilizes embeddings of specifically curated texts and videos to create a reliable interactive knowledge experience. Then, users can engage in meaningful dialogues with seminal texts and video, as if chatting with a guide, opening up a new frontier of learning and exploration.</Text>
+<Text>I use generative coding to create an interactive experience about <Link href="/sketch">Mindfulness of Breath</Link></Text>
+<Text>Generative text and visuals in <Link href="https://sati-remember.netlify.app/">Remember This</Link> are ephemeral, mirroring the teaching of Anicca and reinforcing the impermanent nature of all phenomena. </Text>
+
+
+<Text>I dedicate this project with respect and gratitude to all my teachers in my interdisciplinary and non-linear assemblage of entanglements.</Text>
 <Text variant='h2'>Why Sati-Ai?</Text>
         <Text>
         Greetings!  
