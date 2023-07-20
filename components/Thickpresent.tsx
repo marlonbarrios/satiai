@@ -1,10 +1,25 @@
 
+import React from 'react';
 import ThickpresentData from '../data/thickpresent.json';
 import Example from './Example';
 
 const Thickpresent = () => {
   return (
-    <Example data={ThickpresentData} />
+    <div> 
+   
+      
+     
+      <Example data={ThickpresentData} />
+      <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/mfr78xim0tY" 
+        title="YouTube video player" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowFullScreen
+      ></iframe>
+     
+    </div>
   );
 };
 
