@@ -91,7 +91,7 @@ const Sketch: React.FC = () => {
                 />
        
        
-                <div style={{ position: 'absolute', bottom: '10px', right: '10px' }}>
+                <div style={{ position: 'absolute', bottom: '10px', right: '20px' }}>
                     <input
                         type="range"
                         min="0"
@@ -112,7 +112,7 @@ const Sketch: React.FC = () => {
       
     
 
-      <div style={{ position: 'absolute', bottom: '20px', left: '10px' }}>
+      <div style={{ position: 'absolute', bottom: '20px', left: '20px' }}>
         <Link href="/" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
           Back Home
         </Link>
