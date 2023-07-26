@@ -9,9 +9,9 @@ function About() {
       <section className="flex flex-col gap-3 text-zinc-600">
        
       </section>
-      <Text variant='h1'>ChatVideos: AI Augmented</Text>
+      <Text variant='h1'>ChatVideos: AI Augmented Videos</Text>
       <Text className="text-zinc-600">
-        We are excited to present Sati-AI ChatVideos, a groundbreaking project that leverages artificial intelligence to enhance your learning experience. With Sati-AI ChatVideos, we provide a conversational interface to the knowledge contained within videos.
+        We are excited to present Sati-AI ChatVideos, a groundbreaking project that leverages artificial intelligence to enhance your learning experience. With Sati-AI ChatVideos, we provide a conversational interface to the knowledge contained within videos. This allows you to ask questionsto Sati-Ai  and receive answers in real-time, as you watch the video. We hope that this will help you to engage more deeply with the content and to learn more effectively. Sanmple Questions are provided below each video. 
       </Text>
 
       <Text className="text-center">
