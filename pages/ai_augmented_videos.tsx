@@ -24,7 +24,7 @@ function About() {
 
   <Text className="text-center">
   <Link 
-  href="/about_a_video_varela"
+  href="/about_a_video_salzberg"
   
 >
 Sharon Salzberg
