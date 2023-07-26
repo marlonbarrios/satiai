@@ -74,8 +74,13 @@ As an art and research project, Sati-AI should be approached with an open and di
         </Link>
       </div>
       <div className="text-center">
-        <Link href="/about_a_video" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-        Sati-AI ChatVideos
+        <Link href="/about_a_video_varela" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
+        ChatVideo Francisco Varela
+        </Link>
+      </div>
+      <div className="text-center">
+        <Link href="/about_a_video_salzberg" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
+        ChatVideo Sharon Salzberg
         </Link>
       </div>
       <div className="text-center">
