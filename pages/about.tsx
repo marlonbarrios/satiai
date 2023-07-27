@@ -63,8 +63,8 @@ As an art and research project, Sati-AI should be approached with an open and di
 
    
         <div className="text-center">
-        <Link href="/about_a_book" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-        Sati-AI ChatBooks
+        <Link href="/ai_augmented_texts" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
+        Sati-AI ChatTexts: AI Augmented Texts
         </Link>
       </div>
       <div className="text-center">
@@ -72,11 +72,8 @@ As an art and research project, Sati-AI should be approached with an open and di
         ChatVideos: AI Augmented Videos
         </Link>
       </div>
-      <div className="text-center">
-        <Link href="/about_an_article" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-       Ask me about the interview in LionsRoar
-        </Link>
-      </div>
+      
+   
       <div className="text-center">
         <Link href="/contemplative_digital_art" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
         Contemplative Digital Art

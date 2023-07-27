@@ -43,8 +43,8 @@ Note that Sati-AI cannot replace a trained human teacher or mental health profes
 
    
       <div className="text-center">
-        <Link href="/about_a_book" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-        Sati-AI ChatBooks
+        <Link href="/ai_augmented_texts" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
+        Sati-AI ChatTexts: AI Augmented Texts
         </Link>
       </div>
       <div className="text-center">
@@ -58,15 +58,7 @@ Note that Sati-AI cannot replace a trained human teacher or mental health profes
         </Link>
       </div>
      
-      <div className="text-center">
-        <Link href="/about_an_article" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-        Ask me about the interview in LionsRoar
-        </Link>
-      </div>
-     
-      
-      
-       
+    
       <div className="text-center">
         <Link href="https://t.me/satiai_tg_bot" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
         Sati-AI in Telegram App
