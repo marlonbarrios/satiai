@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Text, Page } from '@vercel/examples-ui'
 import Image from 'next/image'
 
-function About() {
+function Videos() {
   return (
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-3 text-zinc-600">
@@ -79,4 +79,4 @@ Sharon Salzberg on the Journey from Isolation to Openness
   )
 }
 
-export default About
+export default Videos

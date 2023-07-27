@@ -61,13 +61,7 @@ As an art and research project, Sati-AI should be approached with an open and di
        
    
 
-    <div className="text-center">
-    <Text>
-            <Link href="https://openai.com/gpt-4" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-                Sati-Ai is powered by GPT-4
-            </Link>
-        </Text>
-        </div>
+   
         <div className="text-center">
         <Link href="/about_a_book" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
         Sati-AI ChatBooks
@@ -84,6 +78,11 @@ As an art and research project, Sati-AI should be approached with an open and di
         </Link>
       </div>
       <div className="text-center">
+        <Link href="/contemplative_digital_art" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
+        Contemplative Digital Art
+        </Link>
+      </div>
+      <div className="text-center">
         <Link href="https://t.me/satiai_tg_bot" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
         Sati-AI in Telegram App
         </Link>
@@ -93,23 +92,18 @@ As an art and research project, Sati-AI should be approached with an open and di
           Conversation Examples
         </Link>
       </div>
-      
       <div className="text-center">
-        <Link href="https://sati-remember.netlify.app/" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-       Remember This (Art)
-        </Link>
-      </div>
-      <div className="text-center">
-        <Link href="/sketch" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-       Body of the Breath (Art)
-        </Link>
-      </div>
-      <div className="text-center">
+   <Link href="https://openai.com/gpt-4" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
+       Sati-Ai is powered by GPT-4
+   </Link>
+</div>
+<div className="text-center">
         <Link 
             href="https://linktr.ee/marlonbarriososolano"
             className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
             Created by Marlon Barrios Solano
         </Link>
+  
     </div>
         <div className="text-center">
             <Link href="/" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">

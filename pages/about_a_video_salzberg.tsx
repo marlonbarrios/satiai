@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Script from 'next/script'
 import { Text, Page } from '@vercel/examples-ui'
 
-function About() {
+function Salzberg() {
   return (
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-3 text-zinc-600">
@@ -77,14 +77,8 @@ Can you provide more details about the fundamental understandings Sharon Salzber
       </div>
 
       <div className="text-center">
-        <Link href="https://sati-remember.netlify.app/" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-          Remember This (Ephemeral Art Object)
-        </Link>
-      </div>
-
-      <div className="text-center">
-        <Link href="https://marlonbarrios.github.io/bodyofthebreath/" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-          Body of the Breath (Ephemeral Art Object)
+        <Link href="/contemplative_digital_art" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
+        Contemplative Digital Art
         </Link>
       </div>
 
@@ -97,4 +91,4 @@ Can you provide more details about the fundamental understandings Sharon Salzber
   )
 }
 
-export default About
+export default Salzberg
