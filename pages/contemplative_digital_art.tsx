@@ -87,12 +87,7 @@ Dymanic Enso
     >Constant Change
   </Link>
   </Text>
-  <Text className="text-center">
-      <Link 
-      href="https://marlonbarrios.github.io/spirograh100squares/"
-    >Constant Change
-  </Link>
-  </Text>
+ 
   <Text className="text-center">
       <Link 
       href="https://marlonbarrios.github.io/chromatic_crescent/"
