@@ -37,13 +37,19 @@ While not all works utilize AI, they are all anchored in the digital realm. My c
 And now, these creations are my gift and offering to you. Like a handful of leaves offered in the forest, they are intended to inspire, provoke, and awaken. May they serve as a catalyst for your own
 journey of discovery. May they invite you into a dance with the ephemeral and the eternal, the tangible and the abstract, the personal and the universal. May they echo in your mind, resonate in your heart, and find a home in your consciousness. This is my offering to you, a token of generosity and a manifestation of interconnectedness in this vast digital realm.
       </Text>
-      
       <Text className="text-center">
-  <Link 
+      <Link 
   href="/sketch"
+>
+Body of the Breath
+</Link>
+</Text>
+      <Text className="text-center">
+      <Link 
+  href="https://marlonbarrios.github.io/black_ink_enso/"
   
 >
-The Body of the Breath
+Dymanic Enso
 </Link>
 </Text>
       <Text className="text-center">
@@ -53,6 +59,53 @@ The Body of the Breath
     Remember This
   </Link>
   </Text>
+  <Text className="text-center">
+      <Link 
+      href="https://medium.com/@marlon_21867/canonical-soft-space-01-a751d337da2a"
+  >
+    Canonical (Soft Space)
+  </Link>
+  </Text>
+  <Text className="text-center">
+      <Link 
+      href="https://medium.com/@marlon_21867/thick-present-awareness-guided-meditation-a-post-humanist-practice-b0ed88521f01"
+  >
+    Thick Present Awareness (Guided Meditation)
+  </Link>
+  </Text>
+
+  <Text className="text-center">
+      <Link 
+      href="
+      https://marlonbarrios.github.io/flow_field_02/">Flow Field 01
+  </Link>
+  </Text>
+
+  <Text className="text-center">
+      <Link 
+      href="https://marlonbarrios.github.io/spirograh100squares/"
+    >Constant Change
+  </Link>
+  </Text>
+  <Text className="text-center">
+      <Link 
+      href="https://marlonbarrios.github.io/spirograh100squares/"
+    >Constant Change
+  </Link>
+  </Text>
+  <Text className="text-center">
+      <Link 
+      href="https://marlonbarrios.github.io/chromatic_crescent/"
+    >Chromatic Crescent
+  </Link>
+  </Text>
+
+  
+
+ 
+
+
+
 
       <div className="text-center">
         <Link href="https://linktr.ee/marlonbarriososolano" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
