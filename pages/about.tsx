@@ -1,7 +1,6 @@
 import { Text, Page } from '@vercel/examples-ui'
 import Link from 'next/link'
 import Image from 'next/image'
-
 function About() {
   return (
     <Page className="flex flex-col gap-12">
@@ -9,14 +8,11 @@ function About() {
       <div className="flex justify-between items-center">
       <Text variant='h1'>What is Sati-Ai?</Text>
         <div className="flex items-center">
-       
-      
         <Link href="/">
-              <Image src="/images/logo.png" alt="Sati-AI" width={100} height={100} />
+          <Image src="/images/logo.png" alt="Sati-AI" width={100} height={100} />
             </Link>
           </div>
           </div>
-      
         <Text>Sati-AI is a versatile AI-powered mindfulness meditation assistant and consultant that primarily draws from the Theravada tradition of early Buddhism. However, it also incorporates interdisciplinary connections with relevant contemporary bodies of knowledge, such as embodied cognition and enactivism, systems and complexity theory, trauma-informed approaches, somatic experiencing, polyvagal theory, attachment theory, feminist and queer theory, critical cultural history, post-humanist knowledge, and art.</Text>
         <Text>
 Sati-AI aims to help you cultivate mindfulness within complex cultural histories. To make the most out of Sati-AI, approach any dialogue with openness, honesty, and a healthy sense of humor. Ask questions about your meditation practice or specific verses from the Pali Canon. The tool also places a premium on the primacy of embodiment, art and difficul questions.</Text>
@@ -30,7 +26,6 @@ As an art and research project, Sati-AI should be approached with an open and di
 <Text>Sati-AI, an advanced artificial intelligence platform, has been made more accessible to users via <Link  href="https://t.me/satiai_tg_bot">Telegram</Link>. In addition, Sati-AI is pushing the boundaries of interaction with knowledge by developing <Link href="/about_a_book">Sati-AI ChatBook</Link> and <Link href="/about_a_video">Sati-AI ChatVideo</Link>. This innovative concept utilizes embeddings of specifically curated texts and videos to create a reliable interactive knowledge experience. Then, users can engage in meaningful dialogues with seminal texts and video, as if chatting with a guide, opening up a new frontier of learning and exploration.</Text>
 <Text>I use generative coding to create an interactive experience about <Link href="/sketch">Mindfulness of Breath</Link></Text>
 <Text>Generative text and visuals in <Link href="https://sati-remember.netlify.app/">Remember This</Link> are ephemeral, mirroring the teaching of Anicca and reinforcing the impermanent nature of all phenomena. </Text>
-
 <Text>I dedicate this project with respect and gratitude to all my teachers in my interdisciplinary and non-linear assemblage of entanglements.</Text>
 <Text variant='h2'>Why Sati-Ai?</Text>
         <Text>
@@ -50,30 +45,18 @@ As an art and research project, Sati-AI should be approached with an open and di
         <Text>
         I hope that you enjoy your conversations with Sati-AI. I am always open to feedback and suggestions.  Please feel free to reach out to me at marlon(at)dance-tech.net.
         </Text>
-   
         <Text>I know for sure that Sati-AI is empty of a separate self. So are we.</Text>
-
-       
-      
         </section>
- 
-
-       
-   
-
-   
         <div className="text-center">
         <Link href="/ai_augmented_texts" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-        Sati-AI ChatTexts: AI Augmented Texts
+        AI Augmented Texts
         </Link>
       </div>
       <div className="text-center">
         <Link href="/ai_augmented_videos" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-        ChatVideos: AI Augmented Videos
+        AI Augmented Videos
         </Link>
       </div>
-      
-   
       <div className="text-center">
         <Link href="/contemplative_digital_art" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
         Contemplative Digital Art
@@ -91,28 +74,25 @@ As an art and research project, Sati-AI should be approached with an open and di
       </div>
       <div className="text-center">
    <Link href="https://openai.com/gpt-4" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-       Sati-Ai is powered by GPT-4
+       Sati-Ai is powered by OpenAI
    </Link>
 </div>
 <div className="text-center">
         <Link 
             href="https://linktr.ee/marlonbarriososolano"
             className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-            Created by Marlon Barrios Solano
+          Marlon Barrios Solano
         </Link>
-  
     </div>
         <div className="text-center">
             <Link href="/" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
                 Back Home
             </Link>
         </div>
-       
         <div className="items-center mx-auto w-80">
         <Image src="/images/logo.png" alt="Sati-AI" width={500} height={500} />
       </div>
     </Page>
   )
 }
-
 export default About

@@ -77,7 +77,6 @@ How does Varelas perspective challenge traditional notions of perception and cog
         Contemplative Digital Art
         </Link>
       </div>
-
       <div className="text-center">
         <Link href="/" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
           Back Home

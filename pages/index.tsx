@@ -2,7 +2,6 @@ import { Text, Page } from '@vercel/examples-ui'
 import { Chat } from '../components/Chat'
 import Link from 'next/link'
 import Image from 'next/image'
-
 function Home() {
   return (
     <Page className="flex flex-col gap-12">
@@ -10,12 +9,10 @@ function Home() {
         <div className="flex justify-between items-center"> 
         <Text variant='h1'>Sati-Ai </Text>
          <div className="flex items-center">
-       
             <Link href="/">
               <Image src="/images/logo.png" alt="Sati-AI" width={100} height={100} />
             </Link>
           </div>
-          
         </div>
         <Text className="text-zinc-600">Sati-AI is a multi-lingual AI-powered mindfulness meditation and buddhist wisdom guide that incorporates interdisciplinary connections with contemporary knowledge, such as embodied cognition and enactivism, trauma-informed approaches, and art. It primarily draws from the Theravada tradition of early Buddhism to help you cultivate mindfulness and wisdom within complex cultural histories.
         </Text>
@@ -25,7 +22,6 @@ Approach any dialogue with Sati-AI with openness, honesty, and a sense of humor.
         <Text className="text-zinc-600"><i>
 Note that Sati-AI cannot replace a trained human teacher or mental health professional.</i>
 </Text>
-
         <Text variant="h2" className="mb-6">
           May you be free from suffering...
         </Text>
@@ -39,17 +35,14 @@ Note that Sati-AI cannot replace a trained human teacher or mental health profes
           Learn More
         </Link>
       </div>
-    
-
-   
       <div className="text-center">
         <Link href="/ai_augmented_texts" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-        Sati-AI ChatTexts: AI Augmented Texts
+        AI Augmented Texts
         </Link>
       </div>
       <div className="text-center">
         <Link href="/ai_augmented_videos" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-        ChatVideos: AI Augmented Videos
+       AI Augmented Videos
         </Link>
       </div>
       <div className="text-center">
@@ -57,8 +50,6 @@ Note that Sati-AI cannot replace a trained human teacher or mental health profes
         Contemplative Digital Art
         </Link>
       </div>
-     
-    
       <div className="text-center">
         <Link href="https://t.me/satiai_tg_bot" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
         Sati-AI in Telegram App
@@ -71,25 +62,22 @@ Note that Sati-AI cannot replace a trained human teacher or mental health profes
       </div>
       <div className="text-center">
     <Text>
-            <Link href="https://openai.com/gpt-4" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-                Sati-Ai is powered by GPT-4
-            </Link>
+      <Link href="https://openai.com/gpt-4" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
+                Sati-Ai is powered by OpenAI
+      </Link>
         </Text>
         </div>
       <div className="text-center">
         <Link 
             href="https://linktr.ee/marlonbarriososolano"
             className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white"
-        >
-            Created by Marlon Barrios Solano
+        >Marlon Barrios Solano
         </Link>
     </div>
-
       <div className="items-center mx-auto w-80">
         <Image src="/images/logo.png" alt="Sati-AI" width={500} height={500} />
       </div>
     </Page>
   )
 }
-
 export default Home
