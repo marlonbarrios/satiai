@@ -36,7 +36,7 @@ journey of discovery. May they invite you into a dance with the ephemeral and th
       <Link 
   href="/sketch"
 >
-Body of the Breath
+Body of the Breath: interactive animation to synchronize breath and body
 </Link>
 </Text>
       <Text className="text-center">
@@ -44,48 +44,48 @@ Body of the Breath
   href="https://marlonbarrios.github.io/black_ink_enso/"
   
 >
-Dymanic Enso
+Dymanic Enso: contemplative everchanging Enso (Zen circle)
 </Link>
 </Text>
       <Text className="text-center">
       <Link 
       href="https://sati-remember.netlify.app/"
   >
-    Remember This
+    Remember This: generative AI text and image as reminders of impermanence
   </Link>
   </Text>
   <Text className="text-center">
       <Link 
       href="https://marlonbarrios.github.io/chromatic_crescent/"
-    >Chromatic Crescent
+    >Chromatic Crescent: very subtle animation of a diffuse circle of ever changing colors
   </Link>
   </Text>
   <Text className="text-center">
       <Link 
       href="https://medium.com/@marlon_21867/canonical-soft-space-01-a751d337da2a"
   >
-    Canonical (Desktop Only)
+    Canonical (Desktop Only): a soft space to contemplate the body and dance in front to the computer with webcam input.
   </Link>
   </Text>
   <Text className="text-center">
       <Link 
       href="https://medium.com/@marlon_21867/thick-present-awareness-guided-meditation-a-post-humanist-practice-b0ed88521f01"
   >
-    Thick Present Awareness (Guided Meditation)
+    Thick Present Awareness (Guided Meditation): video with a post-humanist practice guided by a deepfake synthetic teacher.
   </Link>
   </Text>
 
   <Text className="text-center">
       <Link 
       href="
-      https://marlonbarrios.github.io/flow_field_02/">Flow Field 01
+      https://marlonbarrios.github.io/flow_field_02/">Emergent Paths: interactive animation of a flow field
   </Link>
   </Text>
 
   <Text className="text-center">
       <Link 
       href="https://marlonbarrios.github.io/spirograh100squares/"
-    >Constant Change
+    >Emergent Mandalas: generative  animation of rotating squares 
   </Link>
   </Text>
   <div className="text-center">
