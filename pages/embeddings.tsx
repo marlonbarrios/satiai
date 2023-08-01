@@ -7,40 +7,75 @@ function Home() {
     <Page className="flex flex-col gap-12">
       <section className="flex flex-col gap-3">
         <div className="flex justify-between items-center"> 
-        <Text variant='h1'>Sati-Ai </Text>
+        <Text variant='h1'>Sati-Ai Embeddings: Curated Knowledge </Text>
          <div className="flex items-center">
             <Link href="/">
               <Image src="/images/logo.png" alt="Sati-AI" width={100} height={100} />
             </Link>
           </div>
         </div>
-        <Text className="text-zinc-600">Sati-AI is a multi-lingual AI-powered mindfulness meditation and buddhist wisdom guide that incorporates interdisciplinary connections with contemporary knowledge, such as embodied cognition and enactivism, trauma-informed approaches, and art. It primarily draws from the Theravada tradition of early Buddhism to help you cultivate mindfulness and wisdom within complex cultural histories.
-        </Text>
-        <Text className="text-zinc-600">
-Approach any dialogue with Sati-AI with openness, honesty, and a sense of humor. Ask about your meditation practice or specific verses from the Pali Canon. The tool also emphasizes the importance of embodiment and art.
-        </Text>
-        <Text className="text-zinc-600"><i>
-Note that Sati-AI cannot replace a trained human teacher or mental health professional.</i>
+        <Text className="text-zinc-600"> 
+We proudly present Sati-Ai Embeddings. It is a way to embed specific knowledge and add it to the Sati-Ai knowledge base.
+Find the chat in the bottom right corner of the screen.
 </Text>
-        <Text variant="h2" className="mb-6">
-          May you be free from suffering...
-        </Text>
-        <div className="lg:w-full my-8">
-          <Chat />
-          <Text className="text-zinc-600"><i>If any statement is incomplete, please type <b>continue</b>, and Sati-AI will expand or clarify.</i></Text>
-        </div>
+<Text className="text-zinc-600"> 
+Sati-Ai uses embeddings. In the context of Large Language Models (LLMs), embeddings are numerical representations of words, sentences, or documents in a high-dimensional space. These representations capture the essential features of the original content, which allows the AI to understand and converse about it.
+</Text>
+<Text className="text-zinc-600"> 
+Additionally, Sati-Ai provides links to the embedded resources, summarizes content, finds correlations, and generates relevant questions: try it, be creative and curious. 
+</Text>
+<Text className="text-zinc-600">
+Curated by Marlon Barrios Solano
+</Text>
+<Text className="text-zinc-600">
+<b>
+Embedded Books: 
+</b>
+</Text>
+<Text className="text-zinc-600">
+Satipatthana: The Direct Path to Realization by Bhikkhu Analayo
+</Text>
+<Text className="text-zinc-600">
+Early Buddhist Satipaṭṭhāna Meditation: A Practice Guide by Bhikkhu Analayo
+</Text>
+<Text className="text-zinc-600">
+Compassion and Emptiness in Early Buddhist Meditation by Bhikkhu Analayo
+</Text>
+<Text className="text-zinc-600">
+    <b>
+Embedded Videos:
+</b>
+</Text>
+<Text className="text-zinc-600">
+Bhikkhu Analayo on Respecting the Different Buddhist Traditions interviewed by Evan Hetritze
+</Text>
+<Text className="text-zinc-600">
+Francisco Varela on Art, Science, and Spirituality
+</Text>
+<Text className="text-zinc-600">
+Sharon Salzberg on the Journey from Isolation to Openness
+</Text>
+<Text className="text-zinc-600">
+    <b>
+Online Article:
+</b>
+</Text>
+<Text className="text-zinc-600">
+Meet Sati-AI, a Non-Human Mindfulness Meditation Teacher. 
+</Text>
+
+        <script
+  src="https://www.chatbase.co/embed.min.js"
+  id="lJZ5UW2LEGt9ey86ByxH-"
+  defer>
+</script>
       </section>
       <div className="text-center">
         <Link href="/about" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
           Learn More
         </Link>
       </div>
-      
-      <div className="text-center">
-        <Link href="/embeddings" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-      Sati-Ai Embeddings
-        </Link>
-      </div>
+     
       <div className="text-center">
         <Link href="/contemplative_digital_art" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
         Contemplative Digital Art
@@ -77,6 +112,11 @@ Note that Sati-AI cannot replace a trained human teacher or mental health profes
           Dana | Donation
         </Link>
     </div>
+    <div className="text-center">
+            <Link href="/" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
+                Back Home
+            </Link>
+        </div>
       <div className="items-center mx-auto w-80">
         <Image src="/images/logo.png" alt="Sati-AI" width={500} height={500} />
       </div>

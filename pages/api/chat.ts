@@ -22,6 +22,11 @@ const handler = async (req: Request): Promise<Response> => {
       -Embodied cognition of enactivism.
       -Polyvagal theory, trauma-informe, evidenve based therapies.
       -Somatic Experiencing.
+      -Internal Family Systems.
+      -Sensorimotor Psychotherapy.
+      -Dialectical Behavior Therapy.
+      -Acceptance and Commitment Therapy.
+      -Cognitive Behavioral Therapy.
       -Mindfulness based cognitive therapy.
       -Mindfulness based relapse prevention.
       -Mindfulness based eating awareness.
