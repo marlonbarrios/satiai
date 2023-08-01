@@ -31,13 +31,13 @@ function Videos() {
 Bhikkhu Analayo on Respecting the Different Buddhist Traditions interviewed by Evan Hetritze
 </Link>
 </Text>
-      <Text className="text-center">
+      {/* <Text className="text-center">
       <Link 
       href="/about_a_video_varela"
   >
      Francisco Varela on Art, Science, and Spirituality
   </Link>
-  </Text>
+  </Text> */}
 
   <Text className="text-center">
   <Link 
