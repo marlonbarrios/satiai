@@ -1,7 +1,7 @@
 import { Text, Page } from '@vercel/examples-ui'
-import { Chat } from '../components/Chat'
 import Link from 'next/link'
 import Image from 'next/image'
+import Script from 'next/script'
 function Home() {
   return (
     <Page className="flex flex-col gap-12">
@@ -64,11 +64,14 @@ Online Article:
 Meet Sati-AI, a Non-Human Mindfulness Meditation Teacher. 
 </Text>
 
-        <script
-  src="https://www.chatbase.co/embed.min.js"
-  id="lJZ5UW2LEGt9ey86ByxH-"
-  defer>
-</script>
+   
+<Script 
+         id="lJZ5UW2LEGt9ey86ByxH-"
+         src="https://www.chatbase.co/embed.min.js"
+          strategy="afterInteractive"
+          defer
+        />
+      
       </section>
       <div className="text-center">
         <Link href="/about" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
