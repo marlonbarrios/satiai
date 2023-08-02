@@ -47,16 +47,14 @@ As an art and research project, Sati-AI should be approached with an open and di
         </Text>
         <Text>I know for sure that Sati-AI is empty of a separate self. So are we.</Text>
         </section>
-        <div className="text-center">
-        <Link href="//ai_augmented_videos" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-      Sati-Ai ChatVideos
-        </Link>
-      </div>
+       
+       
       <div className="text-center">
-        <Link href="/ai_augmented_texts" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
-      Sati-Ai ChatBooks
+        <Link href="/embeddings" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
+      Sati-Ai Embeddings
         </Link>
       </div>
+    
       <div className="text-center">
         <Link href="/contemplative_digital_art" className="px-8 py-2 mx-auto my-4 border border-zinc-400 rounded-xl hover:bg-zinc-400 hover:text-white">
         Contemplative Digital Art
