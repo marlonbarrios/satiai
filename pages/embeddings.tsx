@@ -53,6 +53,9 @@ Bhikkhu Analayo on Respecting the Different Buddhist Traditions interviewed by E
 Francisco Varela on Art, Science, and Spirituality
 </Text>
 <Text className="text-zinc-600">
+The Map of Wisdom: Joseph Goldstein on the Core Buddhist Teachings
+</Text>
+<Text className="text-zinc-600">
 Sharon Salzberg on the Journey from Isolation to Openness
 </Text>
 <Text className="text-zinc-600">
