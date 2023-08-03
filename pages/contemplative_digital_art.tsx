@@ -49,7 +49,7 @@ Dymanic Enso: contemplative everchanging Enso (Zen circle)
 </Text>
       <Text className="text-center">
       <Link 
-      href="https://sati-remember.netlify.app/"
+      href="https://rememberthis1.netlify.app/"
   >
     Remember This: generative AI text and image as reminders of impermanence
   </Link>
