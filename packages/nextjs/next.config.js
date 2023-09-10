@@ -9,6 +9,10 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: process.env.NEXT_PUBLIC_IGNORE_BUILD_ERROR === "true",
   },
+  publicRuntimeConfig: {
+    OPENAI_API_KEY: process.env.OPENAI_API_KEY,
+    NFT_STORAGE_KEY: process.env.NFTSTORAGE_KEY,
+  },
   images: {
     remotePatterns: [
       {

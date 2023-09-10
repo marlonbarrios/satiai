@@ -1,11 +1,15 @@
 import { useState } from "react";
+import getConfig from "next/config";
 import { NFTStorage } from "nft.storage";
 import { useMessages } from "~~/contexts/Messages";
 import { useScaffoldContractWrite } from "~~/hooks/scaffold-eth";
 
+const { publicRuntimeConfig } = getConfig();
+
 export const Mint = () => {
   const { state, dispatch } = useMessages();
   const [loading, setLoading] = useState(false);
+  const apiKey = publicRuntimeConfig.NFT_STORAGE_KEY;
   // first, we need to clean up the conversation so it is stored in a readable and delightful form
   // we use three new lines to separate calls and responses as Sati sometimes uses \n\n itself.
   const conversation = state.messages
@@ -44,8 +48,7 @@ export const Mint = () => {
     };
 
     const client = new NFTStorage({
-      token:
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweEE2MDJlZTcyRTM2ODBmMDVhNDIwNGRhOWVkYTAyRTBEOWYzMjQyM0QiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY4Njg0NDE3NTU0NywibmFtZSI6IlNhdGkifQ.vbAZz-Y4aFXSiH-zxGWoGRC4dkwcHhI3x2DrKcyqQv4",
+      token: apiKey,
     });
     const metadata = await client.store(nft);
 

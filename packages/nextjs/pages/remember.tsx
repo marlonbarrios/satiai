@@ -1,7 +1,10 @@
 import { useState } from "react";
+import getConfig from "next/config";
 import Image from "next/image";
 import { Configuration, OpenAIApi } from "openai";
 import { MetaHeader } from "~~/components/MetaHeader";
+
+const { publicRuntimeConfig } = getConfig();
 
 interface State {
   imageUrl: string;
@@ -34,11 +37,13 @@ function Remember() {
     isLoading: false,
   });
 
+  const apiKey = publicRuntimeConfig.OPENAI_API_KEY;
+
   const getImageAndText = async () => {
     setState({ ...state, imageUrl: "/loading.gif", generatedText: "", isLoading: true });
 
     const configuration = new Configuration({
-      apiKey: process.env.OPENAI_API_KEY,
+      apiKey: apiKey,
     });
 
     const openai = new OpenAIApi(configuration);
