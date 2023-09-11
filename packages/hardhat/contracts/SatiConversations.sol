@@ -42,7 +42,7 @@ contract SatiConversations is ERC721Tradable {
         pure 
         returns (string memory) 
     {
-        return "https://arweave.net/JB096wImG3pVLPLQVe0tmgiJHUjrNSCtWdi-ojxTETg";
+        return "https://arweave.net/Uxa8ml75RXaT2hTjG-vq0_75PpEzG3SXQ0GN5Z6GziE";
     }
 
     /** @notice          Set the royalties for the whole contract. Our intention is to set it to 10% in perpetuity.
