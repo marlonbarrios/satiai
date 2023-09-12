@@ -42,6 +42,11 @@ Early Buddhist Satipaṭṭhāna Meditation: A Practice Guide by Bhikkhu Analayo
 Compassion and Emptiness in Early Buddhist Meditation by Bhikkhu Analayo
 </Text>
 <Text className="text-zinc-600">
+Ethical Know-How: Action, Wisdom, and Cognition by Francisco Varela
+</Text>
+
+<Text className="text-zinc-600">
+
     <b>
 Embedded Videos:
 </b>
@@ -58,13 +63,17 @@ The Map of Wisdom: Joseph Goldstein on the Core Buddhist Teachings
 <Text className="text-zinc-600">
 Sharon Salzberg on the Journey from Isolation to Openness
 </Text>
+
 <Text className="text-zinc-600">
-    <b>
-Online Article:
+<b>
+Articles and Essays:
 </b>
 </Text>
 <Text className="text-zinc-600">
 Meet Sati-AI, a Non-Human Mindfulness Meditation Teacher. 
+</Text>
+<Text className="text-zinc-600">
+ The Ten Kinds of Equanimity (Upekkhā) by Anne Murphy
 </Text>
 
    
