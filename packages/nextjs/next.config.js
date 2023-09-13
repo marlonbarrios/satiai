@@ -11,7 +11,7 @@ const nextConfig = {
   },
   publicRuntimeConfig: {
     OPENAI_API_KEY: process.env.OPENAI_API_KEY,
-    NFT_STORAGE_KEY: process.env.NFTSTORAGE_KEY,
+    NFT_STORAGE_KEY: process.env.NFT_STORAGE_KEY,
   },
   images: {
     remotePatterns: [

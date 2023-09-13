@@ -64,7 +64,7 @@ contract SatiConversations is ERC721Tradable {
         external 
         payable 
     {
-        require(msg.value >= 0.001 ether, "SATI: Minimum mint is 0.001 ETH");
+        require(msg.value >= 0.01 ether, "SATI: Minimum mint is 0.01 ETH");
 
         uint256 newTokenId = _tokenIdCounter.current();
         _safeMint(msg.sender, newTokenId);

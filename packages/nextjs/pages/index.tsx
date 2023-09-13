@@ -68,6 +68,14 @@ const Home: NextPage = () => {
           </div>
         </div>
 
+        <div className="px-5 md:w-1/2 text-center">
+          <hr />
+          <a className="btn btn-primary px-10 my-10 rounded-full space-x-3" href="" target="_blank" rel="noreferrer">
+            Our collected memories
+          </a>
+          <hr />
+        </div>
+
         <div className="px-5 md:w-1/2">
           <h1 className="my-6">
             <span id="examples" className="block text-4xl font-bold">

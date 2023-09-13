@@ -2,7 +2,9 @@ import { useState } from "react";
 import getConfig from "next/config";
 import { NFTStorage } from "nft.storage";
 import { Configuration, OpenAIApi } from "openai";
+import { useAccount } from "wagmi";
 import { useMessages } from "~~/contexts/Messages";
+import { useAccountBalance } from "~~/hooks/scaffold-eth";
 import { useScaffoldContractWrite } from "~~/hooks/scaffold-eth";
 
 const { publicRuntimeConfig } = getConfig();
@@ -16,8 +18,11 @@ interface ImageData {
 }
 
 export const Mint = () => {
+  const { address } = useAccount();
+  const { balance } = useAccountBalance(address);
   const { state, dispatch } = useMessages();
   const [loading, setLoading] = useState(false);
+  const [stored, setStored] = useState(false);
   const [imageUrl, setImageUrl] = useState("");
 
   const apiKey = publicRuntimeConfig.OPENAI_API_KEY;
@@ -69,9 +74,9 @@ export const Mint = () => {
     setLoading(true);
     const image = await generateImage();
     const nft = {
-      image,
-      name: "Sati AI Conversation",
-      description: "A mindful meditation made meaningful by your participation and presence",
+      image: image,
+      name: "Re:membering Conversation",
+      description: "A mindful meditation made meaningful by your participation and presence.",
       properties: {
         content: {
           "text/markdown": conversation,
@@ -84,10 +89,8 @@ export const Mint = () => {
     });
     const metadata = await client.store(nft);
 
-    console.log("NFT data stored!");
-    console.log("Metadata URI: ", metadata.url);
     dispatch({ type: "SET_METADATA", payload: metadata.url });
-    await writeAsync();
+    setStored(true);
     setLoading(false);
   };
 
@@ -96,7 +99,7 @@ export const Mint = () => {
     contractName: "SatiConversations",
     functionName: "converse",
     args: [state.metadata],
-    value: "0.005",
+    value: "0.001",
     blockConfirmations: 1,
     onBlockConfirmation: txnReceipt => {
       console.log("Transaction blockHash", txnReceipt.blockHash);
@@ -104,15 +107,36 @@ export const Mint = () => {
   });
 
   return (
-    <div className="text-center">
-      <button
-        className={`btn btn-primary px-10 rounded-full space-x-3 ${
-          loading ? "loading before:!w-4 before:!h-4 before:!mx-0" : ""
-        }`}
-        onClick={storeNFT}
-      >
-        {loading ? "" : "Memorialise"}
-      </button>
+    <div className="px-5 text-center">
+      <hr />
+      <p className="mt-10">There are two steps to memorialising this conversation.</p>
+      {stored ? (
+        <div>
+          <p>Now, mint it as an NFT:</p>
+          <button
+            className={`btn btn-primary px-10 rounded-full space-x-3 ${
+              loading ? "loading before:!w-4 before:!h-4 before:!mx-0" : ""
+            }`}
+            onClick={writeAsync}
+          >
+            {loading ? "" : "Mint"}
+          </button>
+        </div>
+      ) : balance && balance > 0.01 ? (
+        <div>
+          <p>First, write it to permanent storage:</p>
+          <button
+            className={`btn btn-primary px-10 rounded-full space-x-3 ${
+              loading ? "loading before:!w-4 before:!h-4 before:!mx-0" : ""
+            }`}
+            onClick={storeNFT}
+          >
+            {loading ? "" : "Memorialise"}
+          </button>
+        </div>
+      ) : (
+        <p>Memorialise this conversation by connecting an account with 0.005 ETH</p>
+      )}
     </div>
   );
 };
