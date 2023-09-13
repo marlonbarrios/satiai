@@ -1965,6 +1965,7 @@ __metadata:
     "@rainbow-me/rainbowkit": ^0.11.0
     "@trivago/prettier-plugin-sort-imports": ^4.1.1
     "@types/node": ^17.0.35
+    "@types/p5": ^1.6.2
     "@types/react": ^18.0.9
     "@types/react-blockies": ^1.4.1
     "@types/react-copy-to-clipboard": ^5.0.4
@@ -1983,6 +1984,7 @@ __metadata:
     nextjs-progressbar: ^0.0.16
     nft.storage: ^7.1.0
     openai: ^3.1.0
+    p5: ^1.7.0
     postcss: ^8.4.16
     prettier: ^2.8.4
     react: ^18.2.0
@@ -1992,6 +1994,8 @@ __metadata:
     react-dom: ^18.2.0
     react-fast-marquee: ^1.3.5
     react-hot-toast: ^2.4.0
+    react-p5: ^1.3.35
+    react-p5-wrapper: ^4.1.2
     react-wrap-balancer: ^0.1.5
     tailwindcss: ^3.1.8
     typescript: ^4.9.5
@@ -2689,6 +2693,20 @@ __metadata:
   version: 0.2.0
   resolution: "@types/nprogress@npm:0.2.0"
   checksum: 561384775008ae58111f038f8f9468b3de8987cd753feef9bf6d07af0e1343390d492a078bb08a7b53ac7370208e31e06ac069cb852c435d49f5fe218e9769c4
+  languageName: node
+  linkType: hard
+
+"@types/p5@npm:1.3.3":
+  version: 1.3.3
+  resolution: "@types/p5@npm:1.3.3"
+  checksum: abad4d101f2e83b94006a889efbc928777ba0c5d66ce740af4ec5d7b89db297b1a37389bfa08a465b6b67164667947efd9776d09238c68882756eb3b51f1d324
+  languageName: node
+  linkType: hard
+
+"@types/p5@npm:^1.6.2":
+  version: 1.7.0
+  resolution: "@types/p5@npm:1.7.0"
+  checksum: ea9aa35e9234fcf9182bdf00617befe71324ca7ab90f1b99890f964ddaea0b8c36b719ea20d9865599f682bbe46024ce172755bf70f13d3c3522ca42b6eb702e
   languageName: node
   linkType: hard
 
@@ -10414,6 +10432,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"microdiff@npm:^1.3.2":
+  version: 1.3.2
+  resolution: "microdiff@npm:1.3.2"
+  checksum: 4a90e7725b8c5decf9da53f46abdc9b32d78f0b4873b136c07bc3b0ba13e60fca8c8eefdb4718ba2bde5834b86314b3300ca6ca3f0e2ebb7f7d6ea1d31af1e25
+  languageName: node
+  linkType: hard
+
 "micromatch@npm:^4.0.2, micromatch@npm:^4.0.4, micromatch@npm:^4.0.5":
   version: 4.0.5
   resolution: "micromatch@npm:4.0.5"
@@ -11475,6 +11500,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"opencollective-postinstall@npm:2.0.2":
+  version: 2.0.2
+  resolution: "opencollective-postinstall@npm:2.0.2"
+  bin:
+    opencollective-postinstall: index.js
+  checksum: 4b6f333f1c863ef141abef16998daf45f891baf63765684f14b97884ca069fb0055decb59ade7800153190c099b559918c2adeb99f3db70bb0fd616220e8cc17
+  languageName: node
+  linkType: hard
+
 "optionator@npm:^0.8.1":
   version: 0.8.3
   resolution: "optionator@npm:0.8.3"
@@ -11634,6 +11668,20 @@ __metadata:
   version: 2.2.0
   resolution: "p-try@npm:2.2.0"
   checksum: f8a8e9a7693659383f06aec604ad5ead237c7a261c18048a6e1b5b85a5f8a067e469aa24f5bc009b991ea3b058a87f5065ef4176793a200d4917349881216cae
+  languageName: node
+  linkType: hard
+
+"p5@npm:1.3.1":
+  version: 1.3.1
+  resolution: "p5@npm:1.3.1"
+  checksum: ca7b128b4ee34a6aa161d14f196eeb2aa2bfff071c3d045ebc2e73fafcac9dc6b4e7b1bdcd14e3d6b38fb090157e82674a9e10e9b931148b0108112c892d9dc6
+  languageName: node
+  linkType: hard
+
+"p5@npm:^1.6.0, p5@npm:^1.7.0":
+  version: 1.7.0
+  resolution: "p5@npm:1.7.0"
+  checksum: 9596b0ac8f871cc9585c41feb145ed61ca7ba53a63a9be454c41ad5a61103b905c3a1d4b0fad8f7beaed35d539a4c2accae9570a25f9be5add2df6abd26f6491
   languageName: node
   linkType: hard
 
@@ -12370,6 +12418,33 @@ __metadata:
   dependencies:
     p-defer: ^3.0.0
   checksum: f10f435060551c470711ba0b3663e3d49c7701aae84ea645d66992d756b13e923fb5762b324d3583d85c1c0def4138b9cc3f686bab1c1bc10d3ad82dc7175c99
+  languageName: node
+  linkType: hard
+
+"react-p5-wrapper@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "react-p5-wrapper@npm:4.1.2"
+  dependencies:
+    microdiff: ^1.3.2
+    p5: ^1.6.0
+  peerDependencies:
+    react: ">= 17.0.2"
+    react-dom: ">= 17.0.2"
+  checksum: fd9cce2bc74111eb0f8cd6d09c0ecd6b5c7d622f41de1a9ca1378d493d175a4bc5babb6ac3a855e23352bf947398f7426f3c7fff90553554cc5688520c06f149
+  languageName: node
+  linkType: hard
+
+"react-p5@npm:^1.3.35":
+  version: 1.3.35
+  resolution: "react-p5@npm:1.3.35"
+  dependencies:
+    "@types/p5": 1.3.3
+    opencollective-postinstall: 2.0.2
+    p5: 1.3.1
+  peerDependencies:
+    react: ">= 17.0.1"
+    react-dom: ">= 17.0.1"
+  checksum: b597ea438c7b51f9f9fbbf2d1d9861e6293b7e8447c06190713c24added9ec38a4270194227a54df0aef22038e3d93e0c46f9c654f0015f7b6c9cb7154eb9872
   languageName: node
   linkType: hard
 

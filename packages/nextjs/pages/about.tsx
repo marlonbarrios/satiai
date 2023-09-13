@@ -51,12 +51,13 @@ function About() {
             <Link className="font-bold underline" href="/book">
               Sati-AI ChatBooks
             </Link>
-            . This innovative concept utilizes embeddings of specifically curated ps to create an reliable interactive
-            knowledge experience. With this unique feature, users can engage in meaningful dialogues with seminal ps, as
-            if chatting with the p itself, opening up a new frontier of learning and exploration.
+            . This innovative concept utilizes embeddings of specifically curated authors to create a reliable,
+            interactive knowledge experience. With this unique feature, users can engage in meaningful dialogues with
+            seminal works, as if chatting with the author themself, opening up a new frontier of learning and
+            exploration.
           </p>
           <p>
-            I dedicate this project with respect and gratitude to all my teachers in my interdisciplinary and non-linear
+            I dedicate this project with respect and gratitude to all my teachers in an interdisciplinary and non-linear
             assemblage of entanglements.
           </p>
           <h1 className="my-6">
@@ -102,13 +103,13 @@ function About() {
             <Link href="/book">Sati-AI ChatBooks</Link>
           </div>
           <div className="btn btn-primary px-4 mb-2">
-            <Link href="https://t.me/satiai_tg_bot">Sati-AI in Telegram App</Link>
+            <Link href="/remember">Remember This (Art)</Link>
           </div>
           <div className="btn btn-primary px-4 mb-2">
             <Link href="/#examples">Conversation Examples</Link>
           </div>
           <div className="btn btn-primary px-4 mb-2">
-            <Link href="https://sati-remember.netlify.app/">Remember This (Ephemeral Art Object)</Link>
+            <Link href="https://t.me/satiai_tg_bot">Sati-AI in Telegram App</Link>
           </div>
           <div className="btn btn-primary px-4 mb-2">
             <Link href="/">Back Home</Link>

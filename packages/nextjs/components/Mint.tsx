@@ -135,7 +135,7 @@ export const Mint = () => {
           </button>
         </div>
       ) : (
-        <p>Memorialise this conversation by connecting an account with 0.005 ETH</p>
+        <p>First, though, you need to connect a wallet with 0.01 ETH.</p>
       )}
     </div>
   );

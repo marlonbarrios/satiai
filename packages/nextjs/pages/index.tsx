@@ -6,7 +6,7 @@ import Queerness from "../components/examples/Queerness";
 import Sabiduria from "../components/examples/Sabiduria";
 import Thickpresent from "../components/examples/Thickpresent";
 import type { NextPage } from "next";
-import { BugAntIcon, MagnifyingGlassIcon, SparklesIcon } from "@heroicons/react/24/outline";
+import { MagnifyingGlassIcon, SparklesIcon } from "@heroicons/react/24/outline";
 import { MetaHeader } from "~~/components/MetaHeader";
 import { Mint } from "~~/components/Mint";
 import { Chat } from "~~/components/chat/Chat";
@@ -33,10 +33,10 @@ const Home: NextPage = () => {
 
         <div className="px-5 md:w-1/2">
           <p className="text-lg">
-            Sati-AI is a multi-lingual AI-powered mindfulness meditation assistant and consultant that incorporates
+            Sati-AI is a multi-lingual AI-powered mindfulness meditation and buddhist wisdom guide that incorporates
             interdisciplinary connections with contemporary knowledge, such as embodied cognition and enactivism,
             trauma-informed approaches, and art. It primarily draws from the Theravada tradition of early Buddhism to
-            help you cultivate mindfulness within complex cultural histories.
+            help you cultivate mindfulness and wisdom within complex cultural histories.
           </p>
           <p className="text-lg">
             Approach any dialogue with Sati-AI with openness, honesty, and a sense of humor. Ask about your meditation
@@ -70,7 +70,12 @@ const Home: NextPage = () => {
 
         <div className="px-5 md:w-1/2 text-center">
           <hr />
-          <a className="btn btn-primary px-10 my-10 rounded-full space-x-3" href="" target="_blank" rel="noreferrer">
+          <a
+            className="btn btn-primary px-10 my-10 rounded-full space-x-3"
+            href="https://testnets.opensea.io/collection/sati-re-minding"
+            target="_blank"
+            rel="noreferrer"
+          >
             Our collected memories
           </a>
           <hr />
@@ -115,35 +120,33 @@ const Home: NextPage = () => {
         </div>
 
         <div className="flex-grow bg-base-300 w-full mt-16 px-8 py-12">
+          <div className="text-center">
+            <p className="text-4xl">In the Media</p>
+          </div>
           <div className="flex justify-center items-center gap-12 flex-col sm:flex-row">
-            <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
-              <BugAntIcon className="h-8 w-8 fill-secondary" />
-              <p>
-                Tinker with our unique NFT contract using the{" "}
-                <Link href="/debug" passHref className="link">
-                  Debug Contract
-                </Link>{" "}
-                tab.
-              </p>
-            </div>
             <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
               <SparklesIcon className="h-8 w-8 fill-secondary" />
               <p>
-                Check out our live website at{" "}
-                <Link href="https://www.sati-ai.app" passHref className="link">
-                  sati-ai.app
+                Remembering to Remember:{" "}
+                <Link
+                  href="https://we.scienceandnonduality.com/podcasts/sounds-of-sand/episodes/2148045015"
+                  passHref
+                  className="link"
+                >
+                  Science and Nonduality Podcast
                 </Link>{" "}
-                to play in production.
+                with Marlon Barrios Solano.
               </p>
             </div>
             <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
               <MagnifyingGlassIcon className="h-8 w-8 fill-secondary" />
               <p>
-                Explore your local transactions with the{" "}
-                <Link href="/blockexplorer" passHref className="link">
-                  Block Explorer
+                Meet Sati-Ai:
+                <br />
+                <Link href="https://www.lionsroar.com/ai-meditation-teacher/" passHref className="link">
+                  Lion&apos;s Roar Magazine
                 </Link>{" "}
-                tab.
+                and a more-than-human interview.
               </p>
             </div>
           </div>
