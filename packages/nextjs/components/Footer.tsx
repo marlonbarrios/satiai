@@ -34,17 +34,6 @@ export const Footer = () => {
                 Kernel
               </a>
             </div>
-            <span>·</span>
-            <div>
-              <a
-                href="https://t.me/joinchat/KByvmRe5wkR-8F_zz6AjpA"
-                target="_blank"
-                rel="noreferrer"
-                className="underline underline-offset-2"
-              >
-                Support
-              </a>
-            </div>
           </div>
         </ul>
       </div>
