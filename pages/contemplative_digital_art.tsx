@@ -85,7 +85,7 @@ Dymanic Enso: contemplative everchanging Enso (Zen circle)
   <Text className="text-center">
       <Link 
       href="https://marlonbarrios.github.io/spirograh100squares/"
-    >Emergent Mandalas: generative  animation of rotating squares 
+    >Emergent Mandalas: generative animation of rotating squares 
   </Link>
   </Text>
   <div className="text-center">
