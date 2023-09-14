@@ -130,7 +130,10 @@ function About() {
             <Link href="/embeddings">Embeddings</Link>
           </div>
           <div className="btn btn-primary px-4 mb-2">
-            <Link href="/remember">Remember This (Art)</Link>
+            <Link href="/contemplative_art">Art</Link>
+          </div>
+          <div className="btn btn-primary px-4 mb-2">
+            <Link href="/remember">Remember</Link>
           </div>
           <div className="btn btn-primary px-4 mb-2">
             <Link href="/sketch">Body of the Breath</Link>
