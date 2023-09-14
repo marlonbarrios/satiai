@@ -1,5 +1,6 @@
 node_modules
 .env
+.env.local
 
 # dependencies, yarn, etc
 # yarn / eslint
@@ -12,3 +13,4 @@ node_modules
 .eslintcache
 .vscode/**
 .DS_Store
+
