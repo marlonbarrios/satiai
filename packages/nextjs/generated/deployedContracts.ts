@@ -1,11 +1,11 @@
 const contracts = {
-  5: [
+  1: [
     {
-      chainId: "5",
-      name: "goerli",
+      chainId: "1",
+      name: "mainnet",
       contracts: {
         SatiConversations: {
-          address: "0x607622090704410af4Ab753967B6Cd8c3d053F7e",
+          address: "0xD6671543DDeb80BD9d888e7CC3878e12713f13F0",
           abi: [
             {
               inputs: [
@@ -517,13 +517,13 @@ const contracts = {
       },
     },
   ],
-  31337: [
+  5: [
     {
-      chainId: "31337",
-      name: "localhost",
+      chainId: "5",
+      name: "goerli",
       contracts: {
         SatiConversations: {
-          address: "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+          address: "0x607622090704410af4Ab753967B6Cd8c3d053F7e",
           abi: [
             {
               inputs: [

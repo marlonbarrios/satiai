@@ -40,6 +40,7 @@ const InputMessage = ({ input, setInput, sendMessage }: any) => (
 export function Chat() {
   const { state, dispatch } = useMessages();
   const [input, setInput] = useState("");
+  const [loading, setLoading] = useState(false);
   const [cookie, setCookie] = useCookies([COOKIE_NAME]);
 
   useEffect(() => {
@@ -51,8 +52,7 @@ export function Chat() {
   }, [cookie, setCookie]);
 
   const sendMessage = async (message: string) => {
-    dispatch({ type: "SET_LOADING", payload: true });
-
+    setLoading(true);
     const newMessages: ChatGPTMessage[] = [...state.messages, { role: "user", content: message }];
 
     dispatch({ type: "SET_MESSAGES", payload: newMessages });
@@ -74,16 +74,32 @@ export function Chat() {
       throw new Error(response.statusText);
     }
 
-    const data = await response.text();
+    const displayData = response.body;
+    if (!displayData) {
+      return;
+    }
 
-    const newMessage: ChatGPTMessage = { role: "assistant", content: data };
+    // write the messages as a stream before we set them in our reducer
+    const reader = displayData.getReader();
+    const decoder = new TextDecoder();
+    let done = false;
 
-    dispatch({
-      type: "SET_MESSAGES",
-      payload: [...newMessages, newMessage],
-    });
+    let lastMessage = "";
 
-    dispatch({ type: "SET_LOADING", payload: false });
+    while (!done) {
+      const { value, done: doneReading } = await reader.read();
+      done = doneReading;
+      const chunkValue = decoder.decode(value);
+
+      lastMessage = lastMessage + chunkValue;
+
+      setLoading(false);
+
+      dispatch({
+        type: "SET_MESSAGES",
+        payload: [...newMessages, { role: "assistant", content: lastMessage } as ChatGPTMessage],
+      });
+    }
   };
 
   return (
@@ -92,7 +108,7 @@ export function Chat() {
         <ChatLine key={index} role={role} content={content} />
       ))}
 
-      {state.loading && <LoadingChatLine />}
+      {loading && <LoadingChatLine />}
 
       {state.messages.length < 2 && (
         <span className="mx-auto flex flex-grow clear-both">
