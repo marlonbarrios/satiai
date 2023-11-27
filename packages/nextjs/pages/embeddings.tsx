@@ -36,14 +36,14 @@ function Embeddings() {
 
         <div className="px-5 md:w-1/2">
           <h1 className="my-6">
-            <span className="block text-4xl font-bold">Books</span>
+            <span className="block text-4xl font-bold">Embedded Sati</span>
           </h1>
-          <iframe src="https://www.chatbase.co/chatbot-iframe/rwywgxD6qex8vZxO0rnCU" width="100%" height="600" />
+          <iframe src="https://www.chatbase.co/chatbot-iframe/lJZ5UW2LEGt9ey86ByxH-" width="100%" height="600" />
         </div>
-        <h1 className="mt-6">
-          <span className="block text-4xl font-bold">Download the Books</span>
-        </h1>
-        <p className="text-m">All the books below were written by Bhikkhu Analayo.</p>
+        <p className="text-m">
+          Some of the sources for the embeddings we used to train this version of Sati are listed below. They include
+          books, video interviews, and a collection of different articles.
+        </p>
         <div className="flex flex-wrap gap-2 md:w-1/2 mt-4 mb-2">
           <div className="btn btn-primary px-4 mb-2">
             <Link href="https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/direct-path.pdf">
@@ -60,38 +60,6 @@ function Embeddings() {
               Compassion and Emptiness in Early Buddhist Meditation
             </Link>
           </div>
-        </div>
-
-        <div className="px-5 md:w-1/2">
-          <h1 className="my-6">
-            <span className="block text-4xl font-bold">Videos</span>
-          </h1>
-          <div className="w-full mb-4 lg:w-1/2 lg:pr-4 float-left">
-            <iframe
-              src="https://www.chatbase.co/chatbot-iframe/lJZ5UW2LEGt9ey86ByxH-"
-              width="100%"
-              height="600"
-            ></iframe>
-          </div>
-          <div className="w-full mb-4 lg:w-1/2 lg:pl-4 float-left">
-            <iframe
-              src="https://www.chatbase.co/chatbot-iframe/CpbbyN7DQuTJwO1QYBHA9"
-              width="100%"
-              height="600"
-            ></iframe>
-          </div>
-          <div className="w-full mb-4 lg:w-1/2 lg:pl-4 float-left">
-            <iframe
-              src="https://www.chatbase.co/chatbot-iframe/qi0QMqp8UabLSeiK1SFiA"
-              width="100%"
-              height="600"
-            ></iframe>
-          </div>
-        </div>
-        <h1 className="mt-6">
-          <span className="block text-4xl font-bold">Watch the Full Versions</span>
-        </h1>
-        <div className="flex flex-wrap gap-2 md:w-1/2 mt-4 mb-2">
           <div className="btn btn-primary px-4 mb-2">
             <Link href="https://www.youtube.com/watch?v=vgZMPcrRmio">
               Francisco Varela on Science, Religion and Art
@@ -107,18 +75,6 @@ function Embeddings() {
               Bhikku Analayo: Respecting Different Buddhist Traditions
             </Link>
           </div>
-        </div>
-
-        <div className="px-5 md:w-1/2">
-          <h1 className="my-6">
-            <span className="block text-4xl font-bold">Articles</span>
-          </h1>
-          <iframe src="https://www.chatbase.co/chatbot-iframe/NdutSkHh5UvoI8oqijyBc" width="100%" height="600"></iframe>
-        </div>
-        <h1 className="mt-6">
-          <span className="block text-4xl font-bold">Read the Full Version</span>
-        </h1>
-        <div className="flex flex-wrap gap-2 md:w-1/2 mt-4 mb-2">
           <div className="btn btn-primary px-4 mb-2">
             <Link href="https://www.lionsroar.com/ai-meditation-teacher/">
               Lion&apos;s Roar: Meet Sati-AI, a Non-Human Mindfulness Meditation Teacher
