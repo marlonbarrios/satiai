@@ -104,19 +104,6 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="px-5 md:w-1/2 text-center">
-          <hr />
-          <a
-            className="btn btn-primary px-10 my-10 rounded-full space-x-3"
-            href="https://testnets.opensea.io/collection/sati-re-minding"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Our collected memories
-          </a>
-          <hr />
-        </div>
-
         <div className="flex-grow bg-base-300 w-full mt-16 px-8 py-12">
           <div className="text-center">
             <p className="text-4xl">In the Media</p>
