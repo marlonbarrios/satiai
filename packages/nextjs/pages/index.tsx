@@ -1,21 +1,10 @@
-import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Forgive from "../components/examples/Forgive";
-import Queerness from "../components/examples/Queerness";
-import Sabiduria from "../components/examples/Sabiduria";
-import Thickpresent from "../components/examples/Thickpresent";
 import type { NextPage } from "next";
 import { MagnifyingGlassIcon, SparklesIcon } from "@heroicons/react/24/outline";
 import { MetaHeader } from "~~/components/MetaHeader";
-import { Mint } from "~~/components/Mint";
-import { Chat } from "~~/components/chat/Chat";
 
 const Home: NextPage = () => {
-  const [activeComponent, setActiveComponent] = useState("");
-  const handleClick = (component: string) => {
-    setActiveComponent(component);
-  };
   return (
     <>
       <MetaHeader />
@@ -46,25 +35,72 @@ const Home: NextPage = () => {
           <p className="text-center text-lg">
             <i>Note that Sati-AI cannot replace a trained human teacher or mental health professional.</i>
           </p>
-          <p className="text-lg">
-            You may choose to &rdquo;memorialise&ldquo; any conversation with Sati as a Non-Fungible Token, or NFT. That
-            way, you will always have access to the wisdom shared here. We display all NFTs ever minted, so that
-            everyone can learn from the different conversations we each choose to have with Sati.
-          </p>
           <h1 className="my-6">
             <span className="block text-4xl font-bold">May you be free from suffering...</span>
           </h1>
         </div>
 
-        <div className="px-5">
-          <div className="lg:w-full max-w-screen-md my-8 mx-auto">
-            <Chat />
-            <p className="text-center text-lg">
-              <i>
-                If any statement is incomplete, please type <b>continue</b>, and Sati-AI will expand or clarify.
-              </i>
-            </p>
-            <Mint />
+        <div className="px-5 md:w-1/2">
+          <p>
+            Sati-AI is built with &ldquo;embeddings&rdquo;, a method by which we can train an LLM on very specific input
+            data - books, articles, videos etc. - that are especially relevant to the context of mindfulness and
+            meditation within the Theravada tradition of Buddhism, thereby making its response even more particular.
+          </p>
+          <p>
+            These representations capture the essential features of the original content, which allows Sati to
+            understand and converse with you about it. It is somewhat like talking with the authors themselves.
+          </p>
+        </div>
+
+        <div className="px-5 md:w-1/2">
+          <iframe src="https://www.chatbase.co/chatbot-iframe/lJZ5UW2LEGt9ey86ByxH-" width="100%" height="600" />
+          <p className="text-m">You can make your own embeddings very easily by following the link below:</p>
+          <div className="btn btn-primary px-4 mb-2">
+            <Link href="https://www.chatbase.co" target="_blank" rel="noreferrer">
+              Chatbase
+            </Link>
+          </div>
+          <p className="text-m">
+            Some of the sources for the embeddings we used to train this version of Sati are listed below. They include
+            books, video interviews, and a collection of different articles.
+          </p>
+        </div>
+
+        <div className="flex flex-wrap gap-2 md:w-1/2 mt-4 mb-2">
+          <div className="btn btn-primary px-4 mb-2">
+            <Link href="https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/direct-path.pdf">
+              Satipatthana: The Direct Path to Realization
+            </Link>
+          </div>
+          <div className="btn btn-primary px-4 mb-2">
+            <Link href="https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/satipatthanapracticeguide.pdf">
+              Early Buddhist Satipaṭṭhāna Meditation: A Practice Guide
+            </Link>
+          </div>
+          <div className="btn btn-primary px-4 mb-2">
+            <Link href="https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/compassionemptiness.pdf">
+              Compassion and Emptiness in Early Buddhist Meditation
+            </Link>
+          </div>
+          <div className="btn btn-primary px-4 mb-2">
+            <Link href="https://www.youtube.com/watch?v=vgZMPcrRmio">
+              Francisco Varela on Science, Religion and Art
+            </Link>
+          </div>
+          <div className="btn btn-primary px-4 mb-2">
+            <Link href="https://www.youtube.com/watch?v=wu9A1YHLU5Q&t=298">
+              Sharon Salzberg: The Journey from Isolation to Openness
+            </Link>
+          </div>
+          <div className="btn btn-primary px-4 mb-2">
+            <Link href="https://www.youtube.com/watch?v=cd8zAVltf4s">
+              Bhikku Analayo: Respecting Different Buddhist Traditions
+            </Link>
+          </div>
+          <div className="btn btn-primary px-4 mb-2">
+            <Link href="https://www.lionsroar.com/ai-meditation-teacher/">
+              Lion&apos;s Roar: Meet Sati-AI, a Non-Human Mindfulness Meditation Teacher
+            </Link>
           </div>
         </div>
 
@@ -79,44 +115,6 @@ const Home: NextPage = () => {
             Our collected memories
           </a>
           <hr />
-        </div>
-
-        <div className="px-5 md:w-1/2">
-          <h1 className="my-6">
-            <span id="examples" className="block text-4xl font-bold">
-              Example Conversations
-            </span>
-          </h1>
-          <div>
-            <button
-              onClick={() => handleClick("Forgive")}
-              className="px-4 py-2 m-4 border border-zinc-400 rounded-xl active:bg-zinc-400 active:text-white"
-            >
-              Forgiveness
-            </button>
-            <button
-              onClick={() => handleClick("Queerness")}
-              className="px-4 py-2 m-4 border border-zinc-400 rounded-xl active:bg-zinc-400 active:text-white"
-            >
-              Queerness
-            </button>
-            <button
-              onClick={() => handleClick("Thickpresent")}
-              className="px-4 py-2 m-4 border border-zinc-400 rounded-xl active:bg-zinc-400 active:text-white"
-            >
-              Thick Present Meditation
-            </button>
-            <button
-              onClick={() => handleClick("Sabiduria")}
-              className="px-4 py-2 m-4 border border-zinc-400 rounded-xl active:bg-zinc-400 active:text-white"
-            >
-              Sabiduria
-            </button>
-          </div>
-          {activeComponent === "Forgive" && <Forgive />}
-          {activeComponent === "Queerness" && <Queerness />}
-          {activeComponent === "Thickpresent" && <Thickpresent />}
-          {activeComponent === "Sabiduria" && <Sabiduria />}
         </div>
 
         <div className="flex-grow bg-base-300 w-full mt-16 px-8 py-12">
