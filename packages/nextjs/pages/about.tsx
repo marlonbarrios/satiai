@@ -12,13 +12,6 @@ function About() {
             <span className="block text-4xl font-bold">What is Sati-Ai?</span>
           </h1>
           <p>
-            Sati-AI is a versatile AI-powered (GPT-4) wisdom coach and consultant that primarily draws from the
-            Theravada tradition of early Buddhism. However, it also incorporates interdisciplinary connections with
-            relevant contemporary bodies of knowledge, such as embodied cognition and enactivism, systems and complexity
-            theory, trauma-informed approaches, somatic experiencing, polyvagal theory, attachment theory, feminist and
-            queer theory, critical cultural history, post-humanist knowledge, and art.
-          </p>
-          <p>
             Sati-AI aims to help you cultivate wisdom within complex cultural histories. To make the most out of
             Sati-AI, approach any dialogue with openness, honesty, and a healthy sense of humor. Ask questions about
             your meditation practice, life turning points or specific verses and techings from the Pali Canon. Sati-Ai
@@ -30,29 +23,10 @@ function About() {
             present-moment experience while also remembering to apply the teachings of the Buddha to our daily lives.
           </p>
           <p>
-            Sati-AI interdisciplinary and multilingual, offering support for meditation practices in a range of
-            languages with abundant training data, such as English, Chinese (Simplified), Spanish, French, German,
-            Russian, Portuguese, Italian, Dutch, Japanese, Korean, and Arabic.
-          </p>
-          <p>
             As an art and research project, Sati-AI should be approached with an open and discerning mindset. It may
             contain inaccuracies or produce unexpected responses. When interacting with LLMs like Sati-AI, privacy and
             personal data protection are crucial considerations. Exercise caution with the information you disclose and
             refrain from providing sensitive personal data.
-          </p>
-          <p>
-            Sati-AI, an advanced artificial intelligence platform, has been made more accessible to users via{" "}
-            <Link className="font-bold underline" href="https://t.me/satiai_tg_bot">
-              Telegram
-            </Link>
-            . In addition, Sati-AI is pushing the boundaries of interaction with knowledge by developing{" "}
-            <Link className="font-bold underline" href="/embeddings">
-              Sati-AI Embeddings
-            </Link>
-            . Sati-Ai utilizes embeddings of specifically curated texts and videos to create a reliable interactive
-            knowledge experience. Then, you can engage in meaningful dialogues with seminal texts and video, as if
-            chatting with a guide, opening up a new frontier of learning and explorations beyond the knowledgebase of
-            the GPT-4 model.
           </p>
           <p>
             I have also included some of my{" "}
@@ -74,10 +48,10 @@ function About() {
             assisted by a dear friend, Andy Tudhope, in the implementation of this work.
           </p>
           <p>
-            I greatly appreciate the versatility and range of Large Language Models (LLMs), such as GPT-4, and their
-            ability to defy hyper-specialization. I savor the liminal space created while conversing with Sati-AI, as a
-            non-human kin, and while interacting with it, I enjoy the emergence of unique, co-created knowledge
-            choreographies within the unstable interdisciplinary landscapes that I like to inhabit.
+            I greatly appreciate the versatility and range of Large Language Models (LLMs) and their ability to defy
+            hyper-specialization. I savor the liminal space created while conversing with Sati-AI, as a non-human kin,
+            and while interacting with it, I enjoy the emergence of unique, co-created knowledge choreographies within
+            the unstable interdisciplinary landscapes that I like to inhabit.
           </p>
           <p>
             Sati-AI is not intended to be a monolithic knowledge base on Buddhist meditation practice and theory,
@@ -127,9 +101,6 @@ function About() {
             <Link href="https://andytudhope.africa">Andy&apos;s work</Link>
           </div>
           <div className="btn btn-primary px-4 mb-2">
-            <Link href="/embeddings">Embeddings</Link>
-          </div>
-          <div className="btn btn-primary px-4 mb-2">
             <Link href="/contemplative_art">Art</Link>
           </div>
           <div className="btn btn-primary px-4 mb-2">
@@ -137,12 +108,6 @@ function About() {
           </div>
           <div className="btn btn-primary px-4 mb-2">
             <Link href="/sketch">Body of the Breath</Link>
-          </div>
-          <div className="btn btn-primary px-4 mb-2">
-            <Link href="/#examples">Conversation Examples</Link>
-          </div>
-          <div className="btn btn-primary px-4 mb-2">
-            <Link href="https://t.me/satiai_tg_bot">Sati-AI in Telegram App</Link>
           </div>
           <div className="btn btn-primary px-4 mb-2">
             <Link href="/">Back Home</Link>
